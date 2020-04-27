@@ -31,7 +31,10 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/assets/scss/custom.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -128,6 +131,6 @@
   },
   "defaultProject": "covid19",
   "cli": {
-    "analytics": "0a090d6a-acc2-48ab-8607-2312bed33009"
+    "analytics": "82da69d1-ab6f-4daf-99d4-7ab8aff38b3a"
   }
 }
