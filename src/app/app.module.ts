@@ -10,6 +10,8 @@ import { VolunteersComponent } from './pages/volunteers/volunteers.component';
 import { MediaComponent } from './pages/media/media.component';
 import { NotesComponent } from './pages/notes/notes.component';
 import { DashComponent } from './pages/dash/dash.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { DashComponent } from './pages/dash/dash.component';
     VolunteersComponent,
     MediaComponent,
     NotesComponent,
-    DashComponent
+    DashComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
