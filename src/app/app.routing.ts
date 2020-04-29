@@ -1,28 +1,21 @@
 import { NgModule } from '@angular/core';
+import { CommonModule, } from '@angular/common';
+import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
-import { CommonModule } from '@angular/common';
-import { BrowserModule } from '@angular/platform-browser';
+import { HomeComponent } from './home/home.component';
+import { ProfileComponent } from './profile/profile.component';
+import { SignupComponent } from './signup/signup.component';
+import { LandingComponent } from './landing/landing.component';
+import { LoginComponent } from './login/login.component';
 
-import { ArticlesComponent } from './pages/articles/articles.component';
-import { DashComponent } from './pages/dash/dash.component';
-import { HowtouseComponent } from './pages/howtouse/howtouse.component';
-import { MediaComponent } from './pages/media/media.component';
-import { NotesComponent } from './pages/notes/notes.component';
-import { ResearchersComponent } from './pages/researchers/researchers.component';
-import { VolunteersComponent } from './pages/volunteers/volunteers.component';
-
-
-
-const routes: Routes = [
-  { path: '', redirectTo: 'dash', pathMatch: 'full' },
-  { path: 'dash',      component: DashComponent },
-  { path: 'articles',      component: ArticlesComponent },
-  { path: 'howtouse',      component: HowtouseComponent },
-  { path: 'media',      component: MediaComponent },
-  { path: 'notes',      component: NotesComponent },
-  { path: 'researchers',      component: ResearchersComponent },
-  { path: 'volunteers',      component: VolunteersComponent },
+const routes: Routes =[
+    { path: 'home',             component: HomeComponent },
+    { path: 'user-profile',     component: ProfileComponent },
+    { path: 'register',           component: SignupComponent },
+    { path: 'landing',          component: LandingComponent },
+    { path: 'login',          component: LoginComponent },
+    { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({
@@ -30,9 +23,10 @@ const routes: Routes = [
     CommonModule,
     BrowserModule,
     RouterModule.forRoot(routes,{
-      useHash: false
+      useHash: true
     })
   ],
-  exports: [RouterModule]
+  exports: [
+  ],
 })
 export class AppRoutingModule { }
