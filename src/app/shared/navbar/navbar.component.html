@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
+<nav class="navbar navbar-expand-lg fixed-top" [class.navbar-transparent]="isHome()" color-on-scroll="500">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" href="https://www.creative-tim.com">Ação Covid 19</a>
-            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+            <a class="navbar-brand" [routerLink]="['/home']"><img class="logo-web" src="./assets/img/covid_weblogo.png" alt=""></a>
+            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" (click)="sidebarToggle()">
                 <span class="navbar-toggler-bar"></span>
                 <span class="navbar-toggler-bar"></span>
                 <span class="navbar-toggler-bar"></span>
@@ -11,38 +11,23 @@
         <div class="navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#" target="_blank">
-                        Como usar
-                    </a>
+                    <a class="nav-link" [routerLink]="['/news']">Como Usar</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" target="_blank">
-                        Artigos
-                    </a>
+                    <a class="nav-link" [routerLink]="['/media']">Artigos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" target="_blank">
-                        Pesquisadores
-                    </a>
+                    <a class="nav-link" [routerLink]="['/about']">Pesquisadores</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" target="_blank">
-                        Voluntários
-                    </a>
+                    <a class="nav-link" [routerLink]="['/discography']">Voluntários</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" target="_blank">
-                        Na Mídia
-                    </a>
+                    <a class="nav-link" [routerLink]="['/tour']">Na Mídia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" target="_blank">
-                        Notas
-                    </a>
+                    <a class="nav-link" [routerLink]="['/contact']">Notas</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a href="https://www.creative-tim.com/product/paper-kit-2-pro-angular?ref=pk2-angular-free-local" target="_blank" class="btn btn-danger btn-round">Upgrade to Pro</a>
-                </li> -->
             </ul>
         </div>
     </div>

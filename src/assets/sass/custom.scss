@@ -1,0 +1,40 @@
+//big fixes of the template
+button{
+    &:focus{
+        outline: none;
+    }
+}
+textarea{
+    resize: none;
+}
+
+.main-header{
+    margin-bottom: 30px;
+    padding: 25px 0;
+    
+    h3{
+        letter-spacing: +2px;
+        font-weight: 700;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+}
+
+.navbar{
+    .navbar-brand{
+        padding: 5px;
+        .logo-web{
+            width: 15vw;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-header{
+        padding: 10px 0;
+        h3{
+            font-size: 28px;
+        }
+    }
+}
+
