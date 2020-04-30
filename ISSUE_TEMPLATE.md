@@ -1,7 +1,7 @@
 <!--
  IMPORTANT: Please use the following link to create a new issue:
 
-  https://www.creative-tim.com/new-issue/argon-design-system-angular
+  https://www.creative-tim.com/new-issue/paper-kit-2-angular
 
 **If your issue was not created using the app above, it will be closed immediately.**
 -->
