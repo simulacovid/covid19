@@ -9,6 +9,12 @@ import { ProfileComponent } from './profile/profile.component';
 import { SignupComponent } from './signup/signup.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { HowtouseComponent } from './howtouse/howtouse.component';
+import { ArticleComponent } from './article/article.component';
+import { ResearcherComponent } from './researcher/researcher.component';
+import { VolunteerComponent } from './volunteer/volunteer.component';
+import { NotesComponent } from './notes/notes.component';
+import { PublicityComponent } from './publicity/publicity.component';
 
 @NgModule({
     imports: [
@@ -23,6 +29,12 @@ import { ContactComponent } from './contact/contact.component';
         ProfileComponent,
         AboutComponent,
         ContactComponent,
+        HowtouseComponent,
+        ArticleComponent,
+        ResearcherComponent,
+        VolunteerComponent,
+        NotesComponent,
+        PublicityComponent,
     ]
 })
 export class PagesModule { }

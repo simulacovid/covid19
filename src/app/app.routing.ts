@@ -11,15 +11,28 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 
+import { ArticleComponent } from './pages/article/article.component';
+import { HowtouseComponent } from './pages/howtouse/howtouse.component';
+import { NotesComponent } from './pages/notes/notes.component';
+import { PublicityComponent } from './pages/publicity/publicity.component';
+import { ResearcherComponent } from './pages/researcher/researcher.component';
+import { VolunteerComponent } from './pages/volunteer/volunteer.component';
+
+
 const routes: Routes =[
     { path: '', redirectTo: 'home', pathMatch: 'full' },
-    { path: 'components',                           component: ComponentsComponent },
-    { path: 'profile',                              component: ProfileComponent },
-    { path: 'signup',                               component: SignupComponent },
-    { path: 'nucleoicons',                          component: NucleoiconsComponent },
-    { path: 'home',                                 component: HomeComponent },
-    { path: 'about',                                component: AboutComponent },
-    { path: 'contact',          component: ContactComponent },
+    { path: 'components', component: ComponentsComponent },
+    { path: 'profile',    component: ProfileComponent },
+    { path: 'signup',     component: SignupComponent },
+    { path: 'nucleoicons',component: NucleoiconsComponent },
+    { path: 'home',       component: HomeComponent },
+    { path: 'about',      component: AboutComponent },
+    { path: 'article',    component: ArticleComponent },
+    { path: 'howtouse',    component: HowtouseComponent },
+    { path: 'notes',    component: NotesComponent },
+    { path: 'publicity',    component: PublicityComponent },
+    { path: 'researcher',    component: ResearcherComponent },
+    { path: 'volunteer',    component: VolunteerComponent },
 ];
 
 @NgModule({
