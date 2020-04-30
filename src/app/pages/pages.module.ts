@@ -5,10 +5,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
-import { ProfileComponent } from './profile/profile.component';
-import { SignupComponent } from './signup/signup.component';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
 import { HowtouseComponent } from './howtouse/howtouse.component';
 import { ArticleComponent } from './article/article.component';
 import { ResearcherComponent } from './researcher/researcher.component';
@@ -25,10 +21,6 @@ import { PublicityComponent } from './publicity/publicity.component';
     ],
     declarations: [
         HomeComponent,
-        SignupComponent,
-        ProfileComponent,
-        AboutComponent,
-        ContactComponent,
         HowtouseComponent,
         ArticleComponent,
         ResearcherComponent,

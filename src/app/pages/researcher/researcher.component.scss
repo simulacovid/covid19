@@ -1,0 +1,16 @@
+$red-main:                  rgba(#EB392C, .98);
+
+.researcher{
+    ul{
+        li{
+            a{
+                font-weight: 700;
+                color: $red-main;
+
+                &:hover, &:focus{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
