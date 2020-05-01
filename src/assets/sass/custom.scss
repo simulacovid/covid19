@@ -1,5 +1,7 @@
 //big fixes of the template
 //main-red: #EB392C
+$red-main:                  rgba(#EB392C, .98);
+
 
 button{
     &:focus{
@@ -27,6 +29,43 @@ textarea{
         padding: 5px;
         .logo-web{
             width: 15vw;
+        }
+    }
+}
+
+.researcher{
+    ul{
+        li{
+            a{
+                font-weight: 700;
+                color: $red-main;
+
+                &:hover, &:focus{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.volunteer{
+    p{
+        text-align: justify;
+    }
+    a{
+        font-weight: 700;
+        color: $red-main;
+
+        &:hover, &:focus{
+            text-decoration: underline;
+        }
+    }
+    ul{
+        li{
+            margin: 10px 0;
+            strong{
+                font-weight: 700;
+            }
         }
     }
 }
