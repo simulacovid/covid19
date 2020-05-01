@@ -8,7 +8,6 @@ import { HomeComponent } from './home/home.component';
 import { HowtouseComponent } from './howtouse/howtouse.component';
 import { ArticleComponent } from './article/article.component';
 import { ResearcherComponent } from './researcher/researcher.component';
-import { VolunteerComponent } from './volunteer/volunteer.component';
 import { NotesComponent } from './notes/notes.component';
 import { PublicityComponent } from './publicity/publicity.component';
 
@@ -24,7 +23,6 @@ import { PublicityComponent } from './publicity/publicity.component';
         HowtouseComponent,
         ArticleComponent,
         ResearcherComponent,
-        VolunteerComponent,
         NotesComponent,
         PublicityComponent,
     ]

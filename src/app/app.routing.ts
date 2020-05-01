@@ -12,7 +12,6 @@ import { HowtouseComponent } from './pages/howtouse/howtouse.component';
 import { NotesComponent } from './pages/notes/notes.component';
 import { PublicityComponent } from './pages/publicity/publicity.component';
 import { ResearcherComponent } from './pages/researcher/researcher.component';
-import { VolunteerComponent } from './pages/volunteer/volunteer.component';
 
 
 const routes: Routes =[
@@ -25,7 +24,6 @@ const routes: Routes =[
     { path: 'notes',    component: NotesComponent },
     { path: 'publicity',    component: PublicityComponent },
     { path: 'researcher',    component: ResearcherComponent },
-    { path: 'volunteer',    component: VolunteerComponent },
 ];
 
 @NgModule({

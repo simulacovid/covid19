@@ -128,7 +128,8 @@
         border-radius: 0;
         color: $default-color;
         font-weight: $font-weight-bold;
-        margin-left: -1px;
+        margin-left: 0px;
+        margin: 5px 0;
         padding: 10px 25px;
 
     }
@@ -139,11 +140,11 @@
         color: #FFFFFF;
     }
     .nav-item:first-child .nav-link{
-        border-radius: 30px 0 0 30px !important;
+        border-radius: 0;
         margin: 0;
     }
     .nav-item:last-child .nav-link{
-        border-radius: 0 30px 30px 0 !important;
+        border-radius: 0;
     }
     .nav-item .nav-link.active{
         background-color: $default-color;

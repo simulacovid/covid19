@@ -45,6 +45,12 @@ textarea{
     }
 }
 
+.researcher{
+    .teacher{
+        text-transform: uppercase;
+    }
+}
+
 .publicity{
     .publicity-title{
         display: inline;
@@ -61,16 +67,29 @@ textarea{
     }
 }
 
-.volunteer{
-    p{
-        text-align: justify;
-    }
-    ul{
-        li{
-            margin: 10px 0;
-            strong{
-                font-weight: 700;
+.notes, .articles{
+    .card{
+        border-radius: 0;
+        height: 35vh;
+        
+        &:hover{
+            cursor: pointer;
+        }
+        
+        .card-body{
+            .card-title{
+                text-transform: uppercase;
+                font-weight: 600;
+                color: $red-main;
+                margin-bottom: 2rem;
             }
+            .card-text{
+                
+                font-weight: 300;
+            }
+        }
+        .card-footer{
+            padding: .75rem 1.25rem;
         }
     }
 }
