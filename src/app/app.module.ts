@@ -11,12 +11,16 @@ import { FooterComponent } from './shared/footer/footer.component';
 
 // import { ComponentsModule } from './components/components.module';
 import { PagesModule } from './pages/pages.module';
+import { Article1Component } from './articles/article1/article1.component';
+import { Article2Component } from './articles/article2/article2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
+    Article1Component,
+    Article2Component,
   ],
   imports: [
     BrowserModule,

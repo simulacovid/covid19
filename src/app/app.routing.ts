@@ -13,17 +13,31 @@ import { NotesComponent } from './pages/notes/notes.component';
 import { PublicityComponent } from './pages/publicity/publicity.component';
 import { ResearcherComponent } from './pages/researcher/researcher.component';
 
+import { Article1Component } from './articles/article1/article1.component'
+import { Article2Component } from './articles/article2/article2.component'
+
 
 const routes: Routes =[
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'components', component: ComponentsComponent },
     { path: 'nucleoicons',component: NucleoiconsComponent },
     { path: 'home',       component: HomeComponent },
-    { path: 'article',    component: ArticleComponent },
     { path: 'howtouse',    component: HowtouseComponent },
-    { path: 'notes',    component: NotesComponent },
-    { path: 'publicity',    component: PublicityComponent },
+    { path: 'notes',    component: NotesComponent,
+      children: [
+        {
+          path: 'article1',
+          component: Article1Component
+        },
+        {
+          path: 'article2',
+          component: Article2Component
+        }
+      ]
+    },
+    { path: 'article',    component: ArticleComponent },
     { path: 'researcher',    component: ResearcherComponent },
+    { path: 'publicity',    component: PublicityComponent },
 ];
 
 @NgModule({
