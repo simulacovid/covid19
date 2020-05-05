@@ -4,6 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+
+
 import { HomeComponent } from './home/home.component';
 import { HowtouseComponent } from './howtouse/howtouse.component';
 import { ArticleComponent } from './article/article.component';
@@ -17,6 +20,7 @@ import { PublicityComponent } from './publicity/publicity.component';
         FormsModule,
         NgbModule,
         RouterModule,
+        PdfViewerModule
     ],
     declarations: [
         HomeComponent,

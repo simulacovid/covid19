@@ -9,7 +9,10 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
-// import { ComponentsModule } from './components/components.module';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+
+import { ComponentsModule } from './components/components.module';
+
 import { PagesModule } from './pages/pages.module';
 import { Article1Component } from './articles/article1/article1.component';
 import { Article2Component } from './articles/article2/article2.component';
@@ -31,7 +34,8 @@ import { Note2Component } from './notes/note2/note2.component';
     NgbModule,
     FormsModule,
     RouterModule,
-    // ComponentsModule,
+    PdfViewerModule,
+    ComponentsModule,
     PagesModule,
     AppRoutingModule,
   ],

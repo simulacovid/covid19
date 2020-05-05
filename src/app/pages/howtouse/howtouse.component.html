@@ -1,10 +1,38 @@
-<div class="main contact">
+<div class="main howtouse">
     <div class="section section-gray">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-12">
                     <div class="main-header text-center">
                         <h3>Como usar</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    
+                    <div *ngIf="isLoaded" class="control-pdf-buttons">
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn pdf-button" (click)="prevPage()" [disabled]="page === 1">Anterior</button>
+                            <button type="button" class="btn pdf-button" (click)="nextPage()" [disabled]="page === totalPages">Próximo</button>
+                        </div>
+                        <p><span>{{ page }}</span> / <span>{{ totalPages }}</span></p>
+
+                    </div>
+                    
+                    <pdf-viewer [src]="src"
+                    [show-all]="false"
+                    [page]="page"
+                    (after-load-complete)="afterLoadComplete($event)"
+                    ></pdf-viewer>
+                    
+                    <div *ngIf="isLoaded" class="control-pdf-buttons">
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn pdf-button" (click)="prevPage()" [disabled]="page === 1">Anterior</button>
+                            <button type="button" class="btn pdf-button" (click)="nextPage()" [disabled]="page === totalPages">Próximo</button>
+                        </div>
+                        <p><span>{{ page }}</span> / <span>{{ totalPages }}</span></p>
+
                     </div>
                 </div>
             </div>
