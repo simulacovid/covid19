@@ -1,1 +1,197 @@
-<p>article1 works!</p>
+<div class="article-note">
+    <h4>Simulando a evolução da transmissão comunitária do coronavírus por meio do Modelo MD Corona.
+    </h4>
+    <p><strong>Autores(as):</strong></p>
+    <ul class="list-unstyled">
+        <li>José Paulo Guedes Pinto (Economista, professor da UFABC)</li>
+        <li>Patrícia Camargo Magalhães (Física, Pós-Doutoranda na Universidade de Bristol - UK)</li>
+        <li>Carlos da Silva dos Santos (Cientista da Computação, professor da UFABC)</li>
+        <li>*Agradecimentos: Júlia Reis (consultoria de comunicação), Eleutério Prado (economia e complexidade), 
+            Leandro Bernardo (infectologista), Juliana Giordano (obstetra), Alexis Saludjan (economista), 
+            Marcilia Brito (revisora), Morgana 
+            Padilha (infectologista), Alexandre Becker (programador e web designer).
+        </li>
+        <li>
+            ** Na semana anterior a publicação deste, o Governo Bolsonaro anunciou o corte de mais 
+            5.613 bolsas de mestrado e doutorado pela Capes, somando às 6.198 bolsas 
+            que foram bloqueadas no primeiro semestre de 2019.
+        </li>
+    </ul>
+
+    <p><strong>Resumo:</strong></p>
+    <p>
+        Este artigo simula cenários possíveis da evolução da transmissão comunitária do vírus SARS-Cov-2, causador da 
+        doença COVID-19, por meio do Modelo de Dispersão do Coronavírus (MD Corona) desenvolvido a partir do 
+        software NetLogo. O objetivo principal do artigo é simular o impacto do confinamento social (supressão) nas curvas 
+        epidêmicas do contágio. Como existem muitas incertezas e debates sobre os detalhes da infecção e 
+        transmissão do COVID-19 e como este modelo é relativamente simples, as conclusões deste exercício servem 
+        para fins educacionais e de pesquisa, mas também podem ser utilizadas, ainda que de forma cautelosa, como 
+        ferramenta para tomada de decisões. O resultado mais impactante desta pesquisa mostra que o vírus pode se 
+        perpetuar no ambiente, levando a surtos de epidemia recorrentes. Isso acontece caso o vírus seja reintroduzido 
+        no sistema por um agente externo, caso o tempo de imunidade ao vírus seja baixo e/ou caso o 
+        confinamento da população não seja expressivo. Em todos os casos simulados com o MD Corona, fica evidente que a 
+        estratégia de confinamento máximo/extremo é a melhor forma de "achatar a curva" de dispersão do vírus, 
+        eliminar o vírus do ambiente e evitar um alto número de mortes.
+    </p>
+    <p><strong>Palavras-chave:</strong> COVID-19; coronavírus; simulação; NetLogo; supressão</p>
+
+    <p><strong>Abstract:</strong></p>
+    <p>
+        This paper simulates different scenario for the social transmission of the virus SARS-Cov-2, responsible for 
+        COVID-19 disease, through a dispersive model (MD Corona) in NetLogo software environment. The main target 
+        is simulate the social confinement (Suppression) impact to the epidemic contagion curves evolution. 
+        As there are many uncertainties and issues concerning the behave of the COVID-19 infection transmission, 
+        and this is a relatively simple model, the conclusions we reach are meant to be used as education and 
+        research purposes. However, it can also be used, with caution, as a tool to guide political decisions.
+        The most impressive result in this research shows that the virus can perpetuate in the environment leading 
+        to recursive epidemic outbreaks. This can happen if the virus is reintroduced into the system by an external 
+        agent, if the immunity time to the virus is low and/or if the population is not in the extensive confinement 
+        social mode. In all cases simulated with MD Corona, it is clear that the maximum/extreme confinement 
+        strategy is the best way to "flatten the curve" of virus dispersion, eliminate the virus from the environment 
+        and avoid a high number of deaths.
+    </p>
+    <p><strong>Key words:</strong> COVID-19; coronavirus; simulation; NetLogo; suppression</p>
+
+    <p><strong>Resumen:</strong></p>
+    <p>
+        Este artículo simula posibles escenarios de la evolución de la transmisión comunitaria del virus SARS-Cov-2, 
+        que causa la enfermedad COVID-19, a través del Modelo de dispersión de coronavirus (MD Corona) 
+        desarrollado a partir del software NetLogo. El objetivo principal del artículo es simular el impacto del 
+        confinamiento social (supresión) en las curvas de contagio epidémico. Como hay muchas incertidumbres y 
+        debates sobre los detalles de la infección y transmisión de COVID-19 y como este modelo es relativamente 
+        simple, las conclusiones de este ejercicio son para fines educativos y de investigación, pero 
+        también se pueden utilizar, aunque con precaución, como herramienta de toma de decisiones. El resultado más 
+        sorprendente de esta investigación muestra que el virus puede perpetuarse en el medio ambiente, lo que lleva 
+        a brotes recurrentes de la epidemia. Esto sucede si el virus es reintroducido en el sistema por un agente 
+        externo, si el tiempo de inmunidad al virus es bajo y / o si el confinamiento de la población no es 
+        significativo. En todos los casos simulados con el MD Corona, es evidente que la estrategia de confinamiento 
+        máximo / extremo es la mejor manera de "aplanar la curva" de dispersión del virus, eliminar el 
+        virus del medio ambiente y evitar una gran cantidad de muertes.
+    </p>
+    <p><strong>Palabras clave:</strong> COVID-19; coronavírus; simulación ; NetLogo; supresión</p>    
+    <hr>
+    <p><strong>Introdução:</strong></p>
+    <p>
+        O objetivo deste artigo é simular cenários possíveis de evolução da transmissão comunitária do coronavírus por meio do ambiente de modelagem programável multiagente NetLogo (Wilensky, 1999).
+        O novo coronavírus, denominado SARS-CoV-2, causador da doença COVID-19, foi identificado no dia 01 de dezembro de 2019 em Wuhan, na província de Hubei, na República Popular da China, mas o primeiro caso foi reportado apenas em 31 de dezembro (Cohen, 2020, Huang, 2020). Cerca de um mês depois, em 30 de janeiro, a Organização Mundial da Saúde (OMS) declarou a epidemia uma emergência de preocupação internacional (PHEIC, 2020) e de forma rápida, já em 11 de março de 2020, a OMS declarou o surto uma pandemia (BBCa, 2020, Lancet, 2020) mundial.
+        Segundo o placar dinâmico do Center for Systems Science and Engineering (CSSE) da Universidade de Johns Hopkins, em 29 de março de 2020, pelo menos 685 623 casos da doença já tinham sido confirmados em mais de 177 países e territórios e as mortes pela doença já alcançam pelos menos 32 137 pessoas. Os países mais atingidos, por enquanto, são respectivamente os EUA, Itália, China, Espanha, Alemanha, Irã e França. O Brasil, apesar de reportar o primeiro caso de contaminação apenas em 25 de fevereiro (Saúde, 2020), já ocupa a 19ª posição nesta listagem com 3 904 casos confirmados e 117 mortes.
+        Apesar de a pandemia ser global, ainda estamos no período em que a dispersão do vírus está se acelerando (BBCb, 2020). A dinâmica da evolução de casos do vírus, a chamada curva epidêmica, e a taxa de mortos, porém, são diferentes para cada país.
+    </p>
+
+    <p><strong>Tabela 1: Ranking mortes globais por coronavírus (Covid-19)</strong></p>
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th>País</th>
+            <th>Mortes</th>
+            <th>Mortes por milhão (pop)</th>
+            <th>Novas Mortes</th>
+            <th>Casos confirmados</th>
+            <th>Mortes / Casos confirmados</th>
+            <th>Casos confirmados / 1 Milhão Pop</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Mundo (Soma)</th>
+                <td>33,897</td>
+                <td></td>
+                <td></td>
+                <td>718,897</td>
+            </tr>
+          <tr>
+            <th>Itália</th>
+            <td>10779</td>
+            <td>178.4</td>
+            <td>756</td>
+            <td>97689</td>
+            <td>0.1103</td>
+            <td>1616.5</td>
+          </tr>
+          <tr>
+            <th>Espanha</th>
+            <td>6802</td>
+            <td>145.6</td>
+            <td>820</td>
+            <td>80031</td>
+            <td>0.085</td>
+            <td>1712.9</td>
+          </tr>
+          <tr>
+            <th>China</th>
+            <td>3300</td>
+            <td>2.4</td>
+            <td>-</td>
+            <td>81439</td>
+            <td>0.0405</td>
+            <td>58.5</td>
+          </tr>
+          <tr>
+            <th>Irã</th>
+            <td>2640</td>
+            <td>32.3</td>
+            <td>123</td>
+            <td>38309</td>
+            <td>0.0689</td>
+            <td>468.3</td>
+          </tr>
+          <tr>
+            <th>França</th>
+            <td>2606</td>
+            <td>38.9</td>
+            <td>292</td>
+            <td>40174</td>
+            <td>0.0649</td>
+            <td>599.7</td>
+          </tr>
+          <tr>
+            <th>Estados Unidos</th>
+            <td>2454</td>
+            <td>7.5</td>
+            <td>234</td>
+            <td>139986</td>
+            <td>0.0175</td>
+            <td>427.9</td>
+          </tr>
+          <tr>
+            <th>Reino Unido</th>
+            <td>1228</td>
+            <td>18.5</td>
+            <td>209</td>
+            <td>19522</td>
+            <td>0.0629</td>
+            <td>293.6</td>
+          </tr>
+          <tr>
+            <th>Holanda</th>
+            <td>771</td>
+            <td>44.7</td>
+            <td>132</td>
+            <td>10866</td>
+            <td>0.071</td>
+            <td>630.6</td>
+          </tr>
+          <tr>
+            <th>Alemanha</th>
+            <td>525</td>
+            <td>6.3</td>
+            <td>92</td>
+            <td>62095</td>
+            <td>0.0085</td>
+            <td>748.8</td>
+          </tr>
+          <tr>
+            <th>Belgica</th>
+            <td>431</td>
+            <td>37.7</td>
+            <td>78</td>
+            <td>10836</td>
+            <td>0.0398</td>
+            <td>948.7</td>
+          </tr>
+
+        </tbody>
+      </table>
+
+</div>
