@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 
-import { HomeComponent } from './home/home.component';
+import { DashComponent } from './dash/dash.component';
 import { HowtouseComponent } from './howtouse/howtouse.component';
 import { ArticleComponent } from './article/article.component';
 import { ResearcherComponent } from './researcher/researcher.component';
@@ -23,7 +23,7 @@ import { PublicityComponent } from './publicity/publicity.component';
         PdfViewerModule
     ],
     declarations: [
-        HomeComponent,
+        DashComponent,
         HowtouseComponent,
         ArticleComponent,
         ResearcherComponent,

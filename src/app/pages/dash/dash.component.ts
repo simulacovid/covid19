@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-home',
-    templateUrl: './home.component.html',
-    styleUrls: ['./home.component.scss']
+    templateUrl: './dash.component.html',
+    styleUrls: ['./dash.component.scss']
 })
 
-export class HomeComponent implements OnInit {
+export class DashComponent implements OnInit {
   focus: any;
   focus1: any;
 

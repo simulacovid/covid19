@@ -5,7 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { ComponentsComponent } from './components/components.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
-import { HomeComponent } from './pages/home/home.component';
+import { DashComponent } from './pages/dash/dash.component';
 
 import { ArticleComponent } from './pages/article/article.component';
 import { HowtouseComponent } from './pages/howtouse/howtouse.component';
@@ -24,7 +24,7 @@ const routes: Routes =[
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'components', component: ComponentsComponent },
   { path: 'nucleoicons',component: NucleoiconsComponent },
-  { path: 'home',       component: HomeComponent },
+  { path: 'dash',       component: DashComponent },
   { path: 'howtouse',    component: HowtouseComponent },
   { path: 'notes',    component: NotesComponent,
   children: [

@@ -67,7 +67,6 @@ export class AppComponent implements OnInit {
             titlee = titlee.slice( 1 );
         }
         if( titlee === '/home' ) {
-            console.log("estou na home");
             return true;
         }
         else {
