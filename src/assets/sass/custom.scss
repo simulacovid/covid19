@@ -1,6 +1,8 @@
 //big fixes of the template
 //main-red: #EB392C
 $red-main:                  rgba(#EB392C, .98);
+$red-light:                  rgba(#F73C2F, .98);
+$red-dark:                  rgba(#AB2A20, .98);
 
 body{
     a{
@@ -82,7 +84,21 @@ textarea{
     }
 
 }
+.howtouse{
+    pdf-viewer {
+        display: block;
+        height: 40vh;
+    }
+    .control-pdf-buttons{
+        text-align: center;
+        .pdf-button{
+            border-radius: 0;
+            background-color: $red-main;
+            border-color: $red-main;
 
+        }
+    }
+}
 .notes, .articles{
     .card{
         border-radius: 0;
