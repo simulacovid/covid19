@@ -13,6 +13,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { PagesModule } from './pages/pages.module';
 import { Article1Component } from './articles/article1/article1.component';
 import { Article2Component } from './articles/article2/article2.component';
+import { Note1Component } from './notes/note1/note1.component';
+import { Note2Component } from './notes/note2/note2.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { Article2Component } from './articles/article2/article2.component';
     FooterComponent,
     Article1Component,
     Article2Component,
+    Note1Component,
+    Note2Component,
   ],
   imports: [
     BrowserModule,

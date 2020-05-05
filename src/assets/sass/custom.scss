@@ -66,6 +66,22 @@ textarea{
         margin: 10px 0;
     }
 }
+.article-note{
+    background-color: white;
+    padding: 5px 25px;
+    text-align: justify;
+
+    h4{
+        font-weight: 400;
+        margin: 15px 0;
+
+    }
+
+    p{
+        margin: 20px 0;
+    }
+
+}
 
 .notes, .articles{
     .card{
