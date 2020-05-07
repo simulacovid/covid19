@@ -105,10 +105,8 @@ textarea{
             border-radius: 0;
             background-color: $red-main;
             border-color: $red-main;
-
         }
     }
-
 }
 .howtouse{
     pdf-viewer {
@@ -140,9 +138,9 @@ textarea{
                 font-weight: 600;
                 color: $red-main;
                 margin-bottom: 2rem;
+                text-align: center;;
             }
             .card-text{
-                
                 font-weight: 300;
             }
         }

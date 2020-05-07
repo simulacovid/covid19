@@ -6,8 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./article1.component.scss']
 })
 export class Article1Component implements OnInit {
-  
-  src = "https://vadimdez.github.io/ng2-pdf-viewer/assets/pdf-test.pdf";
+  src = './assets/articles/Artigo_SimulandoEvolucaoDaTransmissaoComunitariaCoronavirusModeloMDCorona.pdf';
   page: number = 1;
   totalPages: number;
   isLoaded: boolean = false;
