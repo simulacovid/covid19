@@ -4,6 +4,10 @@ $red-main:                  rgba(#EB392C, .98);
 $red-light:                  rgba(#F73C2F, .98);
 $red-dark:                  rgba(#AB2A20, .98);
 
+.netlogo-powered-by{
+    display: none !important;
+}
+
 body{
     a{
         font-weight: 700;
@@ -46,7 +50,12 @@ textarea{
         }
     }
 }
-
+.dash{
+    .simulador{
+        // border:1px solid #f0f;
+        height: 90vh;
+    }
+}
 .researcher{
     .teacher{
         text-transform: uppercase;

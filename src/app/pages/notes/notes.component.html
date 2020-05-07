@@ -9,7 +9,7 @@
                 </div>
             </div>
             
-            <div class="row row-cols-1 row-cols-md-3">
+            <!-- <div class="row row-cols-1 row-cols-md-3">
                 <div class="col mb-4">
                     <a routerLink="note1">
                         <div class="card">
@@ -36,27 +36,36 @@
                         </div>
                     </a>
                 </div>
-                <!-- <div class="col mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div> -->
+            <div class="row">
+                <div class="col-xs-12 col-md-3">
+                    <a routerLink="note2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Nota sobre estudo que prevê data para o fim da Pandemia</h5>
+                                <p class="card-text">Nos últimos dias, um site contendo previsões sobre o final da pandemia de Covid-19 tem sido amplamente ...</p>
+                            </div>
+                            <div class="card-footer">
+                                <p><small class="text-muted">Leia Mais ... </small></p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
+                    <a routerLink="note1">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Dados do prefeito de São José dos Campos são questionáveis </h5>
+                                <p class="card-text">No dia 17 de Abril de 2020, a prefeitura de São José dos Campos, maior cidade de região do Vale do Paraíba no ...</p>
+                            </div>
+                            <div class="card-footer">
+                                <p><small class="text-muted">Leia Mais ... </small></p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div> -->
+                <div class="col-xs-12 col-md-9">
+                    <router-outlet></router-outlet>
+                </div>
             </div>
-            
-                        
-            <router-outlet></router-outlet>
-
         </div>
     </div>
 </div>

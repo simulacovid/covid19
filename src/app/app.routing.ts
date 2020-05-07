@@ -21,7 +21,7 @@ import { Note2Component } from './notes/note2/note2.component'
 
 
 const routes: Routes =[
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'dash', pathMatch: 'full' },
   { path: 'components', component: ComponentsComponent },
   { path: 'nucleoicons',component: NucleoiconsComponent },
   { path: 'dash',       component: DashComponent },
