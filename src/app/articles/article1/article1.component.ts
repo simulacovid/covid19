@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./article1.component.scss']
 })
 export class Article1Component implements OnInit {
-  src = './assets/articles/Artigo_SimulandoEvolucaoDaTransmissaoComunitariaCoronavirusModeloMDCorona.pdf';
+  src = "https://zecopol.github.io/zecopol/Artigo_SimulandoEvolucaoDaTransmissao.pdf";
   page: number = 1;
   totalPages: number;
   isLoaded: boolean = false;
