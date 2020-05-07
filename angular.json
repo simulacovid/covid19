@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pk2-angular": {
+    "acaocovid19": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -64,21 +64,21 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "pk2-angular:build"
+            "browserTarget": "acaocovid19:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "pk2-angular:build:production"
+              "browserTarget": "acaocovid19:build:production"
             },
             "pt":{
-              "browserTarget": "pk2-angular:build:pt"
+              "browserTarget": "acaocovid19:build:pt"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pk2-angular:build"
+            "browserTarget": "acaocovid19:build"
           }
         },
         "test": {
@@ -115,7 +115,7 @@
         }
       }
     },
-    "pk2-angular-e2e": {
+    "acaocovid19-e2e": {
       "root": "e2e",
       "sourceRoot": "e2e",
       "projectType": "application",
@@ -124,7 +124,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "pk2-angular:serve"
+            "devServerTarget": "acaocovid19:serve"
           }
         },
         "lint": {
@@ -139,7 +139,7 @@
       }
     }
   },
-  "defaultProject": "pk2-angular",
+  "defaultProject": "acaocovid19",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
