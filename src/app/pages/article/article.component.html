@@ -9,36 +9,29 @@
                 </div>
             </div>
             
-            <div class="row row-cols-1 row-cols-md-3">
-                <div class="col mb-4">
+            <div class="row">
+                <div class="col-xs-12 col-md-3">
                     <a routerLink="article1">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Simulando a evolução da transmissão comunitária do coronavírus por meio do Modelo M D Corona</h5>
-                                <p class="card-text">Este artigo simula cenários possíveis da evolução da transmissão comunitária do vírus SARS-Cov-2 ...</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" target="_blank"><p><small class="text-muted">Leia Mais ... </small></p></a>
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="col mb-4">
                     <a routerLink="article2">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Press Release</h5>
-                                <p class="card-text">Pesquisadores brasileiros desenvolvem modelo para simular cenários de contágio pelo vírus e reforçam a necessidade de isolamento social como principal medida de controle ...</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" target="_blank"><p><small class="text-muted">Leia Mais ... </small></p></a>
                             </div>
                         </div>
                     </a>
                 </div>
+                <div class="col-xs-12 col-md-9">
+                    <p [class.d-none]="isOpen()">Escolha o artigo a ser lido na sua lateral.</p>
+                    <router-outlet></router-outlet>
+                </div>
             </div>
-            <router-outlet></router-outlet>
-            
+
         </div>
     </div>
 </div>

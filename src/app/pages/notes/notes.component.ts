@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Location } from '@angular/common';
+
 
 @Component({
   selector: 'app-notes',
@@ -6,10 +8,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./notes.component.scss']
 })
 export class NotesComponent implements OnInit {
-
-  constructor() { }
-
+  
+  constructor(public location: Location) {
+  }
+  
   ngOnInit(): void {
   }
-
+  isOpen() {
+    var titlee = this.location.prepareExternalUrl(this.location.path());
+    if(titlee.charAt(0) === '/notes' || titlee.charAt(0) === '/article'){
+      titlee = titlee.slice(5);
+    }
+    if( titlee === '/notes/note1' || titlee === '/notes/note2') {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
 }

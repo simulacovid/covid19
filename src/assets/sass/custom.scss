@@ -84,12 +84,29 @@ textarea{
     h4{
         font-weight: 400;
         margin: 15px 0;
-
     }
 
     p{
         margin: 20px 0;
         text-align: justify;
+    }
+    pdf-viewer {
+        display: block;
+        height: 50vh;
+    }
+    .control-pdf-buttons{
+        text-align: center;
+
+        .pdf-buttons-paginator{
+            display: block;
+            border:1px solid #f0f;
+        }
+        .pdf-button{
+            border-radius: 0;
+            background-color: $red-main;
+            border-color: $red-main;
+
+        }
     }
 
 }
