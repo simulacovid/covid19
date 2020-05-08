@@ -81,11 +81,15 @@ textarea{
     background-color: white;
     padding: 5px 25px;
 
+    a {
+        word-wrap: break-word; 
+        max-width:300px;
+    }
+    
     h4{
         font-weight: 400;
         margin: 15px 0;
     }
-
     p{
         margin: 20px 0;
         text-align: justify;
@@ -96,7 +100,7 @@ textarea{
     }
     .control-pdf-buttons{
         text-align: center;
-
+        
         .pdf-buttons-paginator{
             display: block;
             border:1px solid #f0f;
@@ -123,34 +127,31 @@ textarea{
             border-radius: 0;
             background-color: $red-main;
             border-color: $red-main;
-
+            
         }
     }
 }
 .notes, .articles{
-    .card{
-        border-radius: 0;
-        height: 35vh;
-        
-        &:hover{
-            cursor: pointer;
+    .list-group-item {
+        border: none;
+
+        &-action{
+            color: #66615b;
         }
-        
-        .card-body{
-            .card-title{
-                text-transform: uppercase;
-                font-weight: 600;
-                color: $red-main;
-                margin-bottom: 2rem;
-                text-align: center;;
-            }
-            .card-text{
-                font-weight: 300;
-            }
+
+        &:active, &.active{
+            background-color: $red-main;
+            color: white;
         }
-        .card-footer{
-            padding: .75rem 1.25rem;
+
+        &:first-child, &:last-child {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
         }
+
+
     }
 }
 
@@ -159,6 +160,11 @@ textarea{
         padding: 10px 0;
         h3{
             font-size: 28px;
+        }
+    }
+    .notes, .articles{
+        .list-group{
+            margin-bottom: 15px;
         }
     }
 }
