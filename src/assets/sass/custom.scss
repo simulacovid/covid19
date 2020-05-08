@@ -131,7 +131,13 @@ textarea{
 }
 .howtouse{
     text-align: justify;
-    h4, h3{
+    
+    a{
+        word-wrap: break-word; 
+        max-width:300px;
+    }
+    
+    .main-bg h4, .main-bg h3{
         font-weight: 600;
         color: $red-main;
         text-transform: uppercase;
@@ -141,7 +147,7 @@ textarea{
         font-weight: 500;
         color: $red-dark;
     }
-
+    
 }
 .notes, .articles{
     .list-group-item {
@@ -168,6 +174,13 @@ textarea{
 }
 
 @media only screen and (max-width: 600px) {
+    .navbar{
+        .navbar-brand{
+            .logo-web{
+                width: 40vw;
+            }
+        }
+    }
     .main-header{
         padding: 10px 0;
         h3{

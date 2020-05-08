@@ -4,12 +4,16 @@
             <div class="row">
                 <div class="col-xs-12 col-md-12">
                     <div *ngIf="isMobile == false" class="simulador embed-responsive embed-responsive-4by3">
-                        <iframe src="https://zecopol.github.io/zecopol/" 
-                        scrolling="no" 
-                        sandbox="allow-same-origin allow-scripts"></iframe>
+                        <div class="main-bg">
+                            <iframe src="https://zecopol.github.io/zecopol/" 
+                            scrolling="no" 
+                            sandbox="allow-same-origin allow-scripts"></iframe>
+                        </div>
                     </div>
                     <div *ngIf="isMobile == true" class="mobile-dash">
-                        <p>Desculpe mas o simulador ainda não está pronta para a versão mobile.</p>
+                        <div class="main-bg">
+                            <p>Desculpe mas o simulador ainda não está preparado para a versão mobile, favor usar um computador.</p>
+                        </div>
                     </div>
                 </div>
             </div>
