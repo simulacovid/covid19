@@ -20,6 +20,19 @@ body{
         }
     }
 }
+pdf-viewer {
+    display: block;
+    height: 40vh;
+}
+.control-pdf-buttons{
+    text-align: center;
+    .pdf-button{
+        border-radius: 0;
+        background-color: $red-main;
+        border-color: $red-main;
+        
+    }
+}
 
 button{
     &:focus{
@@ -52,8 +65,8 @@ textarea{
 }
 .dash{
     .simulador{
-        border:1px solid #f0f;
         height: 115vh;
+        margin-top: 50px;
     }
 }
 .researcher{
@@ -80,7 +93,7 @@ textarea{
 .article-note{
     background-color: white;
     padding: 5px 25px;
-
+    
     a {
         word-wrap: break-word; 
         max-width:300px;
@@ -117,41 +130,40 @@ textarea{
     padding: 20px 20px;
 }
 .howtouse{
-    pdf-viewer {
-        display: block;
-        height: 40vh;
+    text-align: justify;
+    h4, h3{
+        font-weight: 600;
+        color: $red-main;
+        text-transform: uppercase;
+        margin-bottom: 10px;
     }
-    .control-pdf-buttons{
-        text-align: center;
-        .pdf-button{
-            border-radius: 0;
-            background-color: $red-main;
-            border-color: $red-main;
-            
-        }
+    strong{
+        font-weight: 500;
+        color: $red-dark;
     }
+
 }
 .notes, .articles{
     .list-group-item {
         border: none;
-
+        
         &-action{
             color: #66615b;
         }
-
+        
         &:active, &.active{
             background-color: $red-main;
             color: white;
         }
-
+        
         &:first-child, &:last-child {
             border-top-left-radius: 0;
             border-top-right-radius: 0;
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
         }
-
-
+        
+        
     }
 }
 

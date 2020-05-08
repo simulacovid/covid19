@@ -10,29 +10,108 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-md-12">
-                    
-                    <div *ngIf="isLoaded" class="control-pdf-buttons">
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn pdf-button" (click)="prevPage()" [disabled]="page === 1">Anterior</button>
-                            <button type="button" class="btn pdf-button" (click)="nextPage()" [disabled]="page === totalPages">Próximo</button>
-                        </div>
-                        <p><span>{{ page }}</span> / <span>{{ totalPages }}</span></p>
-
-                    </div>
-                    
-                    <pdf-viewer [src]="src"
-                    [show-all]="false"
-                    [page]="page"
-                    (after-load-complete)="afterLoadComplete($event)"
-                    ></pdf-viewer>
-                    
-                    <div *ngIf="isLoaded" class="control-pdf-buttons">
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn pdf-button" (click)="prevPage()" [disabled]="page === 1">Anterior</button>
-                            <button type="button" class="btn pdf-button" (click)="nextPage()" [disabled]="page === totalPages">Próximo</button>
-                        </div>
-                        <p><span>{{ page }}</span> / <span>{{ totalPages }}</span></p>
-
+                    <div class="main-bg">
+                        <h3>O QUE É ISSO?</h3>
+                        <p>
+                            A construção desse modelo foi inspirada pelo sucesso da divulgação do estudo desenvolvido por Harry Stevens e publicado na página do jornal Washington Post dia 14 de Março de 2020 (https://www.washingtonpost.com/graphics/2020/world/corona-simulator/) onde o autor explora diferentes cenarios de atenuação e supressão social para conter o avanço do coronavírus.
+                        </p>
+                        <p>
+                            Para a construção do Modelo de Dispersão do Coronavírus (MD Corona), modificamos o modelo original Vírus (Wilensky, 1998) presente na biblioteca do software livre NetLogo (Wilensky, 1999). O modelo original foi inspirado pelo artigo de Yorke et al (1979) em que biólogos ecologistas sugeriram um número de fatores que poderiam influenciar a sobrevivência de um vírus com transmissão direta entre uma população. As modificações específicas que fazem parte do MD Corona serão destacadas abaixo.
+                        </p>
+                        
+                        <h3>COMO ELE FUNCIONA</h3>
+                        <p>
+                            O modelo é iniciado com um número de pessoas (mínimo 10 e máximo 1000) distribuídas aleatoriamente num ambiente. Entre essas pessoas é possível definir o número de pessoas que estão infectadas no início. No modelo original Vírus (1998) esse último parâmetro é fixo em 10 pessoas, no MD Corona é possível escolher quantas pessoas iniciam o modelo infectadas. Outra diferença importante entre os dois modelos é a escala de tempo. No modelo original do Netlogo a escala é em semanas enquanto no MD Corona ela é em dias.
+                        </p>
+                        
+                        <p>
+                            As pessoas podem se mover aleatoriamente nesse mundo (o quadrado preto) estando em um dos três estados: a) saudável mas suscetível a ser contaminado pelo vírus (verde) b) infectadas e transmitindo o vírus (vermelho) c) saudáveis e imunes (cinza)
+                        </p>
+                        
+                        <p>
+                            No modelo as pessoas morrem de infecção ou de idade. Quando a população cai abaixo da "capacidade máxima" do ambiente (fixa em 1000 neste modelo), pessoas saudáveis podem produzir descendentes saudáveis (mas suscetíveis à contaminação).
+                        </p>
+                        
+                        <p>
+                            Por fim, realizamos outras duas grandes inovações em relação ao modelo original: a possibilidade de parar (confinar) uma % de pessoas no ambiente; e a introdução, a cada 30 dias, de um agente infectado pelo vírus, o que acabou por tornar o ambiente do modelo aberto (antes era fechado). Essa última inovação aproxima o modelo da realidade, visto que novos surtos da pandemia voltaram a atingir a China, país que havia decretado, poucos dias atrás, o fim da quarentena
+                        </p>
+                        
+                        <h4>A densidade populacional</h4>
+                        <p>
+                            A densidade Populacional afeta o quão frequente pessoas infectadas, imunes e suceptíveis podem entrar em contato umas com as outras. Você pode mudar o tamanho da população inicial através do slider NUMERO-DE-PESSOAS .
+                        </p>
+                        
+                        <h4>Rotatividade da população</h4>
+                        <p>
+                            À medida que os indivíduos morrem, alguns que morrerem serão infectados, outros serão suscetíveis e outros serão imunes. Todos os novos indivíduos que nascerem, substituindo os que morrerem, serão saudáveis e suscetíveis. As pessoas podem morrer do vírus, cujas chances são determinadas pelo slider CHANCE-DE-RECUPERAÇÃO, ou podem morrer de velhice.
+                        </p>
+                        
+                        <p>
+                            Nesse modelo as pessoas morrem de velhice com 50 anos de idade. A taxa de reprodução é constante. A cada iteração, se a "capacidade máxima" não tiver sido atingida, cada indivíduo saudável têm 1% de chance de se reproduzir.
+                        </p>
+                        
+                        <h4>Grau de imunidade</h4>
+                        <p>
+                            Se uma pessoa for infectada e se recuperar, o quão imune ela estará do vírus? Geralmente assumimos que a imunidade dura a vida inteira e é garantida, mas, em alguns casos, a imunidade desaparece com o tempo e a imunidade pode não ser absolutamente segura. No modelo original do Netlogo, a imunidade é segura, mas dura apenas um ano. No MD Corona, a imunidade é segura mas controlada pelo slider TEMPO-DE-IMUNIDADE-AO-VÍRUS que pode variar de cinco dias a um ano.
+                        </p>
+                        
+                        <h4>Capacidade de transmissão</h4>
+                        <p>
+                            Com que facilidade o vírus se espalha? Alguns vírus com os quais estamos familiarizados se espalham com muita facilidade. Alguns vírus se espalham com pouco contato todas as vezes. Outros (o vírus HIV por exemplo, que é responsável pela Aids) requerem contato significativo, muitas vezes repedidas, antes da transmissão do vírus. Neste modelo, a capacidade de transmissão é determinada pelo slider CHANCE-DE-TRASMISSÃO.
+                        </p>
+                        
+                        <h4>Duração da janela de transmissão</h4>
+                        <p>
+                            Quanto tempo uma pessoa fica infectada antes de se recuperar ou morrer? Esse período de tempo é essencialmente a janela de oportunidade do vírus para transmissão para novos hospedeiros. Neste modelo, a duração da janela de transmissão é determinada pelo slider JANELA-DE-TRANSMISSÃO.
+                        </p>
+                        
+                        <h4>Confinamento</h4>
+                        <p>
+                            E se ao invéz de circular livremente as pessoas ficassem paradas no ambiente? O confinamento das pessoas em suas casas é uma das medidas sugeridas para conter a transmissão do Corona vírus. Essa variável não está presente no modelo original "Virus" do Netlogo. No MD Corona, o número de pessoas confinadas é determinado pelo slider PORCENTAGEM-DE-CONFINADOS. Note que essa varável pode ser alterada durante a simulação (sem precisar Resetar).
+                        </p>
+                        
+                        <h4>Parâmetros relacionados ao código</h4>
+                        <p>
+                            Três parâmetros importantes deste modelo são definidos como constantes no código (consulte o procedimento inicializar-constantes). Eles podem ser expostos como sliders, se desejado. O tempo de vida das pessoas, definidas como turtles (tartarugas) no código, é de 75 anos (expectativa de vida no Brasil em 2020), a capacidade máxima de pessoas do mundo é de 300 e a taxa de natalidade é de 1 em 100 chances de se reproduzir por rodada quando o número de pessoas é menor que a capacidade de máxima. No modelo original do Netlogo a duração da imunidade também é constante e fixa em 52 semanas. No MD corona a imunidade é uma variável (definida acima).
+                        </p>
+                        
+                        <h3>COMO USAR O MD CORONA</h3>
+                        <p>
+                        Cada "volta" representa um dia na escala de tempo deste modelo. Essa é uma importante modificação do modelo original do Netlogo em que a escala de tempo era definida em semanas.
+                        </p>
+                        
+                        <ul class="list-unstyled">
+                            <li>
+                                O slider <strong>NÚMERO-DE-PESSOAS</strong> define o número de pessoas entre 0 e 1000 que serão aleatóriamente distribuidas no ambiente.
+                            </li>
+                            <li>
+                                O slider <strong>PORCENTAGEM-DE-CONFINADOS</strong> controla o número de pessoas que estarão aleatoriamente paradas no ambiente. Ele é uma variável dinâmica, pode ser alterada durante a simulação sem precisar Resetar o simulador.
+                            </li>
+                            <li>
+                                O slider <strong>NÚMERO-DE-INFECTADOS-INICIAL</strong> define o número dentre as pessoas aleatóriamente destribuidas no ambiente que iniciarão infectadas.
+                            </li>
+                            <li>
+                                O slider <strong>CHANCE-DE-TRASMISSÃO</strong> determina a probabilidade de transmissão do vírus quando uma pessoa infectada e outra suscetível ocupar o mesmo sitio no ambiente. Por exemplo, quando o slider estiver definido como 50, o vírus se espalhará aproximadamente uma vez a cada dois encontros.
+                            </li>
+                            <li>
+                                O slider <strong>JANELA-DE-TRANSMISSÃO</strong> determina o número de dias antes que uma pessoa infectada morra ou se recupere.
+                            </li>
+                            <li>
+                                O slider <strong>CHANCE-DE-RECUPERAÇÃO</strong> controla a probabilidade de uma infecção terminar em recuperação/imunidade. Quando esse controle é definido como zero, por exemplo, a infecção é sempre mortal.
+                            </li>
+                            <li>
+                                O slider <strong>TEMPO-DE-IMUNIDADE-AO-VÍRUS</strong> define o tempo em dias em que a pessoa fica imune a transmissão do vírus ao ter contato com a pessoa infectada.
+                            </li>
+                            <li>
+                                O botão <strong>RESETAR</strong> recomeça os gráficos e distribui aleatoriamente o NÚMERO-DE-PESSOAS no ambiente. Todas as pessoas, exceto as NÚMERO-DE-INFECTADOS-INICIAL, são consideradas saudáveis e suscetíveis ao vívus e definidas com a cor verde. as NÚMERO-DE-INFECTADOS-INICIAL pessoas infectadas são definidas pela cor vermelha. Todos com idades distribuídas aleatoriamente. O botão INICIAR/PARAR inicia a simulação e os gráficos e também para a simulação.
+                            </li>
+                            <li>
+                                O botão <strong>FORMA-PESSOA-OU-BOLA</strong> controla se as pessoas são visualizadas com Fformato de círculos ou de pessoas.
+                            </li>
+                        </ul>
+                        <p>
+                            Três monitores de saída mostram a porcentagem da população infectada, a porcentagem imune e o número de dias que se passaram. O gráfico mostra (em suas respectivas cores) o número de pessoas sucetível, infectadas e imunes. Também mostra o número total de indivíduos na população em azul.
+                        </p>
                     </div>
                 </div>
             </div>
