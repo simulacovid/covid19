@@ -8,31 +8,24 @@
                     </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-xs-12 col-md-3">
-                    <a routerLink="note2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Nota sobre estudo que prevê data para o fim da Pandemia</h5>
-                                <p class="card-text">Nos últimos dias, um site contendo previsões sobre o final da pandemia de Covid-19 tem sido amplamente ...</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a routerLink="note1">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Dados do prefeito de São José dos Campos são questionáveis </h5>
-                                <p class="card-text">No dia 17 de Abril de 2020, a prefeitura de São José dos Campos, maior cidade de região do Vale do Paraíba no ...</p>
-                            </div>
-                        </div>
-                    </a>
+                    <div class="list-group">
+                        <a routerLink="note2" routerLinkActive="active" class="list-group-item list-group-item-action">
+                            Nota sobre estudo que prevê data para o fim da Pandemia
+                        </a>
+                        <a routerLink="note1" routerLinkActive="active" class="list-group-item list-group-item-action">
+                            Dados do prefeito de São José dos Campos são questionáveis 
+                        </a>
+                    </div>
                 </div>
                 <div class="col-xs-12 col-md-9">
-                    <p [class.d-none]="isOpen()">Escolha a nota a ser lida na sua lateral.</p>
+                    <p [class.d-none]="isOpen()">Escolha o artigo a ser lido na sua lateral.</p>
                     <router-outlet></router-outlet>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
-

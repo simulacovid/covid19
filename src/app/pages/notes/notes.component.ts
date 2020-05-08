@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Location } from '@angular/common';
 
-
 @Component({
   selector: 'app-notes',
   templateUrl: './notes.component.html',
@@ -16,7 +15,7 @@ export class NotesComponent implements OnInit {
   }
   isOpen() {
     var titlee = this.location.prepareExternalUrl(this.location.path());
-    if(titlee.charAt(0) === '/notes' || titlee.charAt(0) === '/article'){
+    if(titlee.charAt(0) === '/notes'){
       titlee = titlee.slice(5);
     }
     if( titlee === '/notes/note1' || titlee === '/notes/note2') {

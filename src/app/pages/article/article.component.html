@@ -11,28 +11,22 @@
             
             <div class="row">
                 <div class="col-xs-12 col-md-3">
-                    <a routerLink="article1">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Simulando a evolução da transmissão comunitária do coronavírus por meio do Modelo M D Corona</h5>
-                            </div>
-                        </div>
-                    </a>
-                    <a routerLink="article2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Press Release</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-md-9">
-                    <p [class.d-none]="isOpen()">Escolha o artigo a ser lido na sua lateral.</p>
-                    <router-outlet></router-outlet>
+                    
+                    <div class="list-group">
+                        <a routerLink="article1" routerLinkActive="active" class="list-group-item list-group-item-action">
+                            Simulando a evolução da transmissão comunitária do coronavírus por meio do Modelo M D Corona
+                        </a>
+                        <a routerLink="article2" routerLinkActive="active" class="list-group-item list-group-item-action">
+                            Press Release
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-md-9">
+                        <p [class.d-none]="isOpen()">Escolha o artigo a ser lido na sua lateral.</p>
+                        <router-outlet></router-outlet>
+                    </div>                    
                 </div>
             </div>
-
+            
         </div>
     </div>
 </div>
-

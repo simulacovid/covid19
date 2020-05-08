@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Location } from '@angular/common';
 
-
 @Component({
   selector: 'app-article',
   templateUrl: './article.component.html',
@@ -17,7 +16,7 @@ export class ArticleComponent implements OnInit {
 
   isOpen() {
     var titlee = this.location.prepareExternalUrl(this.location.path());
-    if(titlee.charAt(0) === '/notes' || titlee.charAt(0) === '/article'){
+    if(titlee.charAt(0) === '/article'){
       titlee = titlee.slice(5);
     }
     if( titlee === '/article/article1' || titlee === '/article/article2') {
@@ -27,5 +26,4 @@ export class ArticleComponent implements OnInit {
       return false;
     }
   }
-
 }
