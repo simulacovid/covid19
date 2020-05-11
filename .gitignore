@@ -1,3 +1,16 @@
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+./node_modules
+node_modules/*
+./dist/
+dist/
+.firebase/*
+.firebase/**
+src/assets/sass/.DS_Store
 .DS_Store
-.firebase/
+dist/
+documentation/*
+e2e/*
 package-lock.json
