@@ -14,24 +14,22 @@ export class DashComponent implements OnInit {
   getIsMobile(): boolean {
     const w = document.documentElement.clientWidth;
     const breakpoint = 992;
-    console.log(w);
+    // console.log(w);
     if (w < breakpoint) {
       return true;
-      console.log("hide dash");
+      // console.log("hide dash");
     } 
     else {
-      console.log("show dash");
+      // console.log("show dash");
       return false;
-      
     }
   }
 
   ngOnInit() {
     this.isMobile = this.getIsMobile();
     window.onresize = () => {
-      console.log("what happens here");
+      // console.log("what happens here");
       this.isMobile = this.getIsMobile();
     };
   }
-
 }
