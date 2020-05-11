@@ -4,8 +4,6 @@
 *.scss.map
 ./node_modules
 node_modules/*
-./dist/
-dist/
 .firebase/*
 .firebase/**
 src/assets/sass/.DS_Store
