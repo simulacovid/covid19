@@ -13,6 +13,7 @@ import { ArticleComponent } from './article/article.component';
 import { ResearcherComponent } from './researcher/researcher.component';
 import { NotesComponent } from './notes/notes.component';
 import { PublicityComponent } from './publicity/publicity.component';
+import { PublicationsComponent } from './publications/publications.component';
 
 @NgModule({
     imports: [
@@ -29,6 +30,7 @@ import { PublicityComponent } from './publicity/publicity.component';
         ResearcherComponent,
         NotesComponent,
         PublicityComponent,
+        PublicationsComponent,
     ]
 })
 export class PagesModule { }

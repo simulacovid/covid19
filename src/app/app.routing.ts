@@ -12,12 +12,13 @@ import { HowtouseComponent } from './pages/howtouse/howtouse.component';
 import { NotesComponent } from './pages/notes/notes.component';
 import { PublicityComponent } from './pages/publicity/publicity.component';
 import { ResearcherComponent } from './pages/researcher/researcher.component';
+import { PublicationsComponent } from './pages/publications/publications.component';
 
-import { Article1Component } from './articles/article1/article1.component'
-import { Article2Component } from './articles/article2/article2.component'
+import { Article1Component } from './publications/article1/article1.component'
+import { Article2Component } from './publications/article2/article2.component'
 
-import { Note1Component } from './notes/note1/note1.component'
-import { Note2Component } from './notes/note2/note2.component'
+import { Note1Component } from './publications/note1/note1.component'
+import { Note2Component } from './publications/note2/note2.component'
 
 
 const routes: Routes =[
@@ -26,7 +27,7 @@ const routes: Routes =[
   { path: 'nucleoicons',component: NucleoiconsComponent },
   { path: 'dash',       component: DashComponent },
   { path: 'howtouse',    component: HowtouseComponent },
-  { path: 'notes',    component: NotesComponent,
+  { path: 'publications',    component: PublicationsComponent,
   children: [
     {
       path: 'note1',
@@ -35,20 +36,16 @@ const routes: Routes =[
     {
       path: 'note2',
       component: Note2Component
+    },
+    {
+      path: 'article1',
+      component: Article1Component
+    },
+    {
+      path: 'article2',
+      component: Article2Component
     }
   ]
-},
-{ path: 'article',    component: ArticleComponent,
-children: [
-  {
-    path: 'article1',
-    component: Article1Component
-  },
-  {
-    path: 'article2',
-    component: Article2Component
-  }
-]
 },
 { path: 'researcher',    component: ResearcherComponent },
 { path: 'publicity',    component: PublicityComponent },

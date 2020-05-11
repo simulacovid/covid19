@@ -149,9 +149,10 @@ textarea{
     }
     
 }
-.notes, .articles{
+.notes, .articles, .publications{
     .list-group-item {
         border: none;
+        margin-bottom: 5px;
         
         &-action{
             color: #66615b;

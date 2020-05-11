@@ -14,10 +14,10 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { ComponentsModule } from './components/components.module';
 
 import { PagesModule } from './pages/pages.module';
-import { Article1Component } from './articles/article1/article1.component';
-import { Article2Component } from './articles/article2/article2.component';
-import { Note1Component } from './notes/note1/note1.component';
-import { Note2Component } from './notes/note2/note2.component';
+import { Article1Component } from './publications/article1/article1.component';
+import { Article2Component } from './publications/article2/article2.component';
+import { Note1Component } from './publications/note1/note1.component';
+import { Note2Component } from './publications/note2/note2.component';
 
 @NgModule({
   declarations: [
