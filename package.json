@@ -27,6 +27,7 @@
     "@angular/router": "9.1.4",
     "@angular/service-worker": "9.1.4",
     "@ng-bootstrap/ng-bootstrap": "6.1.0",
+    "angular": "^1.7.9",
     "bootstrap": ">=4.3.1",
     "core-js": "3.6.5",
     "holderjs": "^2.9.7",
