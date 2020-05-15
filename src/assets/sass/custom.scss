@@ -4,10 +4,6 @@ $red-main:                  rgba(#EB392C, .98);
 $red-light:                  rgba(#F73C2F, .98);
 $red-dark:                  rgba(#AB2A20, .98);
 
-.netlogo-powered-by{
-    display: none !important;
-}
-
 body{
     a{
         font-weight: 700;
@@ -59,9 +55,19 @@ textarea{
     .navbar-brand{
         padding: 5px;
         .logo-web{
-            width: 15vw;
+            height: 9vh;
         }
     }
+}
+.footer{
+    .logo-apoio{
+        height: 10vh;
+    }
+
+    .credits, .footer-nav {
+        line-height: 120px;
+    }
+
 }
 .dash{
     .simulador{
@@ -177,7 +183,7 @@ textarea{
     .navbar{
         .navbar-brand{
             .logo-web{
-                width: 40vw;
+                height: 8vh;
             }
         }
     }
