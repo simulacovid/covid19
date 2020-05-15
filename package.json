@@ -12,7 +12,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-    "update:packages": "rm -rf node_modules && npm update --save-dev && npm update --save"
+    "update:packages": "rm -rf node_modules && npm update --save-dev && npm update --save",
+    "build:github": "ng build --prod --output-path docs --base-href"
   },
   "dependencies": {
     "@angular/animations": "9.1.4",
