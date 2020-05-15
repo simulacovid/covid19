@@ -6,7 +6,6 @@ import { RouterModule } from '@angular/router';
 
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 
-
 import { DashComponent } from './dash/dash.component';
 import { HowtouseComponent } from './howtouse/howtouse.component';
 import { ArticleComponent } from './article/article.component';
@@ -14,7 +13,6 @@ import { ResearcherComponent } from './researcher/researcher.component';
 import { NotesComponent } from './notes/notes.component';
 import { PublicityComponent } from './publicity/publicity.component';
 import { PublicationsComponent } from './publications/publications.component';
-import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
     imports: [
@@ -32,7 +30,6 @@ import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
         NotesComponent,
         PublicityComponent,
         PublicationsComponent,
-        PageNotFoundComponent,
     ]
 })
 export class PagesModule { }

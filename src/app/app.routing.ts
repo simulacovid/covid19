@@ -7,7 +7,6 @@ import { ComponentsComponent } from './components/components.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
 import { DashComponent } from './pages/dash/dash.component';
 
-import { PageNotFoundComponent } from './pages/pagenotfound/pagenotfound.component';
 import { HowtouseComponent } from './pages/howtouse/howtouse.component';
 import { PublicityComponent } from './pages/publicity/publicity.component';
 import { ResearcherComponent } from './pages/researcher/researcher.component';
@@ -22,9 +21,6 @@ import { Note2Component } from './publications/note2/note2.component'
 
 const routes: Routes =[
   { path: '', redirectTo: 'dash', pathMatch: 'full' },
-  // { path: '', redirectTo: '/dash', pathMatch: 'full' },
-  // { path: '**', component: DashComponent },
-  // { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page
   { path: 'components', component: ComponentsComponent },
   { path: 'nucleoicons',component: NucleoiconsComponent },
   { path: 'dash',       component: DashComponent },
