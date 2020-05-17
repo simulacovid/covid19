@@ -38,6 +38,18 @@ button{
 textarea{
     resize: none;
 }
+.card{
+    border-radius: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    border: 0 none;
+    padding: 20px;
+}
 
 .main-header{
     margin-bottom: 30px;
@@ -63,20 +75,30 @@ textarea{
     .logo-apoio{
         height: 10vh;
     }
-
+    
     .credits, .footer-nav {
         line-height: 120px;
     }
-
+    
 }
 .dash{
     .simulador{
         height: 115vh;
         margin-top: 50px;
+        
+        iframe{
+            overflow-y: scroll;
+        }
     }
 }
 .researcher{
-    .teacher{
+    .section-title{
+        color: $red-main;
+        font-weight: 600;
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+    .researcher{
         text-transform: uppercase;
     }
 }
