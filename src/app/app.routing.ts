@@ -13,6 +13,8 @@ import { ResearcherComponent } from './pages/researcher/researcher.component';
 import { PublicationsComponent } from './pages/publications/publications.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CaseStudyComponent } from './pages/case-study/case-study.component';
+import { HowToActComponent } from './pages/how-to-act/how-to-act.component';
+
 
 import { Article1Component } from './publications/article1/article1.component'
 import { Article2Component } from './publications/article2/article2.component'
@@ -27,6 +29,7 @@ const routes: Routes =[
   { path: 'dash',       component: DashComponent },
   { path: 'howtouse',    component: HowtouseComponent },
   { path: 'casestudy',    component: CaseStudyComponent },
+  { path: 'howtoact',    component: HowToActComponent },
   { path: 'home',    component: HomeComponent },
   { path: 'publications',    component: PublicationsComponent,
   children: [
