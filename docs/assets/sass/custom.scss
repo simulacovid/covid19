@@ -71,6 +71,20 @@ textarea{
             height: 9vh;
         }
     }
+    .navbar-nav{
+        .nav-item{
+            padding: 10px 15px;
+            
+            &:last-child{
+                padding: 10px 0 10px 15px;
+            }
+
+            .nav-link{
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
 }
 .footer{
     .logo-apoio{
@@ -79,6 +93,9 @@ textarea{
     
     .credits, .footer-nav {
         line-height: 120px;
+    }
+    .copyright {
+        margin: 15px 15px;
     }
 }
 /* pages */
@@ -128,12 +145,8 @@ textarea{
 }
 .dash{
     .simulador{
-        height: 115vh;
-        margin-top: 50px;
-        
-        iframe{
-            overflow-y: scroll;
-        }
+        height: 95vh;
+        overflow-y: scroll;
     }
 }
 .aboutus{
