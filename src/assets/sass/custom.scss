@@ -164,11 +164,12 @@ textarea{
         max-width:300px;
     }
     
-    .main-bg h4, .main-bg h3{
+    .card h4, .card h3{
         font-weight: 600;
         color: $red-main;
         // text-transform: uppercase;
         margin-bottom: 10px;
+        margin-top: 0px;
     }
     strong{
         font-weight: 500;
