@@ -10,16 +10,17 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-md-12">
-                    <div class="main-bg">
-                        <h3>O QUE É ISSO?</h3>
+                    <div class="card">
+                        <h3>O que é isso?</h3>
                         <p>
                             A construção desse modelo foi inspirada pelo sucesso da divulgação do estudo desenvolvido por Harry Stevens e publicado na página do jornal Washington Post dia 14 de Março de 2020 (<a href="https://www.washingtonpost.com/graphics/2020/world/corona-simulator/" target="_blank">https://www.washingtonpost.com/graphics/2020/world/corona-simulator/</a>) onde o autor explora diferentes cenarios de atenuação e supressão social para conter o avanço do coronavírus.
                         </p>
                         <p>
                             Para a construção do Modelo de Dispersão do Coronavírus (MD Corona), modificamos o modelo original Vírus (Wilensky, 1998) presente na biblioteca do software livre NetLogo (Wilensky, 1999). O modelo original foi inspirado pelo artigo de Yorke et al (1979) em que biólogos ecologistas sugeriram um número de fatores que poderiam influenciar a sobrevivência de um vírus com transmissão direta entre uma população. As modificações específicas que fazem parte do MD Corona serão destacadas abaixo.
                         </p>
-                        
-                        <h3>COMO ELE FUNCIONA</h3>
+                    </div>
+                    <div class="card">
+                        <h3>Como ele funciona</h3>
                         <p>
                             O modelo é iniciado com um número de pessoas (mínimo 10 e máximo 1000) distribuídas aleatoriamente num ambiente. Entre essas pessoas é possível definir o número de pessoas que estão infectadas no início. No modelo original Vírus (1998) esse último parâmetro é fixo em 10 pessoas, no MD Corona é possível escolher quantas pessoas iniciam o modelo infectadas. Outra diferença importante entre os dois modelos é a escala de tempo. No modelo original do Netlogo a escala é em semanas enquanto no MD Corona ela é em dias.
                         </p>
@@ -85,8 +86,9 @@
                         <p>
                             Três parâmetros importantes deste modelo são definidos como constantes no código (consulte o procedimento inicializar-constantes). Eles podem ser expostos como sliders, se desejado. O tempo de vida das pessoas, definidas como turtles (tartarugas) no código, é de 75 anos (expectativa de vida no Brasil em 2020), a capacidade máxima de pessoas do mundo é de 300 e a taxa de natalidade é de 1 em 100 chances de se reproduzir por rodada quando o número de pessoas é menor que a capacidade de máxima. No modelo original do Netlogo a duração da imunidade também é constante e fixa em 52 semanas. No MD corona a imunidade é uma variável (definida acima).
                         </p>
-                        
-                        <h3>COMO USAR O MD CORONA</h3>
+                    </div>
+                    <div class="card">
+                        <h3>Como usar o MD Corona</h3>
                         <p>
                         Cada "volta" representa um dia na escala de tempo deste modelo. Essa é uma importante modificação do modelo original do Netlogo em que a escala de tempo era definida em semanas.
                         </p>

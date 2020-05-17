@@ -9,10 +9,15 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { DashComponent } from './dash/dash.component';
 import { HowtouseComponent } from './howtouse/howtouse.component';
 import { ArticleComponent } from './article/article.component';
-import { ResearcherComponent } from './researcher/researcher.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 import { NotesComponent } from './notes/notes.component';
 import { PublicityComponent } from './publicity/publicity.component';
 import { PublicationsComponent } from './publications/publications.component';
+import { HomeComponent } from './home/home.component';
+import { CaseStudyComponent } from './case-study/case-study.component';
+import { HowToActComponent } from './how-to-act/how-to-act.component';
+import { StatisticsComponent } from './statistics/statistics.component';
+import { PartnersComponent } from './partners/partners.component';
 
 @NgModule({
     imports: [
@@ -26,10 +31,15 @@ import { PublicationsComponent } from './publications/publications.component';
         DashComponent,
         HowtouseComponent,
         ArticleComponent,
-        ResearcherComponent,
+        AboutusComponent,
         NotesComponent,
         PublicityComponent,
         PublicationsComponent,
+        HomeComponent,
+        CaseStudyComponent,
+        HowToActComponent,
+        StatisticsComponent,
+        PartnersComponent,
     ]
 })
 export class PagesModule { }
