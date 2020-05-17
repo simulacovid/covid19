@@ -49,6 +49,25 @@ textarea{
     margin-bottom: 10px;
     border: 0 none;
     padding: 20px;
+    
+    h4, h3{
+        font-weight: 600;
+        color: $red-main;
+        // text-transform: uppercase;
+        margin-bottom: 15px;
+        margin-top: 0px;
+    }
+    .box-social-media{
+        p{
+            text-align: center;
+        }
+    }
+    
+}
+.home{
+    p{
+        margin-bottom: 15px;
+    }
 }
 
 .main-header{

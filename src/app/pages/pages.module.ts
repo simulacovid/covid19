@@ -14,6 +14,7 @@ import { NotesComponent } from './notes/notes.component';
 import { PublicityComponent } from './publicity/publicity.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { HomeComponent } from './home/home.component';
+import { CaseStudyComponent } from './case-study/case-study.component';
 
 @NgModule({
     imports: [
@@ -32,6 +33,7 @@ import { HomeComponent } from './home/home.component';
         PublicityComponent,
         PublicationsComponent,
         HomeComponent,
+        CaseStudyComponent,
     ]
 })
 export class PagesModule { }

@@ -36,19 +36,19 @@ export class AppComponent implements OnInit {
             }
             this.navbar.sidebarClose();
         });
-        this.renderer.listen('window', 'scroll', (event) => {
-            const number = window.scrollY;
+        // this.renderer.listen('window', 'scroll', (event) => {
+        //     const number = window.scrollY;
 
-            if(this.isHome()){
-                if (number > 150 || window.pageYOffset > 150 ) {
-                    navbar.classList.remove('navbar-transparent');
-                    // console.log("removi a classe transparent");
-                } else {
-                    navbar.classList.add('navbar-transparent');
-                    // console.log("adicionei a classe transparent");
-                }
-            }
-        });
+        //     if(this.isHome()){
+        //         if (number > 150 || window.pageYOffset > 150 ) {
+        //             navbar.classList.remove('navbar-transparent');
+        //             // console.log("removi a classe transparent");
+        //         } else {
+        //             navbar.classList.add('navbar-transparent');
+        //             // console.log("adicionei a classe transparent");
+        //         }
+        //     }
+        // });
         var ua = window.navigator.userAgent;
         var trident = ua.indexOf('Trident/');
         if (trident > 0) {

@@ -12,6 +12,7 @@ import { PublicityComponent } from './pages/publicity/publicity.component';
 import { ResearcherComponent } from './pages/researcher/researcher.component';
 import { PublicationsComponent } from './pages/publications/publications.component';
 import { HomeComponent } from './pages/home/home.component';
+import { CaseStudyComponent } from './pages/case-study/case-study.component';
 
 import { Article1Component } from './publications/article1/article1.component'
 import { Article2Component } from './publications/article2/article2.component'
@@ -19,13 +20,13 @@ import { Article2Component } from './publications/article2/article2.component'
 import { Note1Component } from './publications/note1/note1.component'
 import { Note2Component } from './publications/note2/note2.component'
 
-
 const routes: Routes =[
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'components', component: ComponentsComponent },
   { path: 'nucleoicons',component: NucleoiconsComponent },
   { path: 'dash',       component: DashComponent },
   { path: 'howtouse',    component: HowtouseComponent },
+  { path: 'casestudy',    component: CaseStudyComponent },
   { path: 'home',    component: HomeComponent },
   { path: 'publications',    component: PublicationsComponent,
   children: [

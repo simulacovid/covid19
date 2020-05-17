@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg fixed-top" [class.navbar-transparent]="isHome()" color-on-scroll="500">
+<nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" [routerLink]="['/dash']"><img class="logo-web" src="./assets/img/main_logo.png" alt=""></a>
+            <a class="navbar-brand" [routerLink]="['/home']"><img class="logo-web" src="./assets/img/main_logo.png" alt=""></a>
             <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" (click)="sidebarToggle()">
                 <span class="navbar-toggler-bar"></span>
                 <span class="navbar-toggler-bar"></span>
@@ -11,7 +11,13 @@
         <div class="navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/dash']">Simulador</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" [routerLink]="['/howtouse']">Como Usar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/dash']">Estatisticas</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" [routerLink]="['/publications']">Publicações</a>
@@ -21,6 +27,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" [routerLink]="['/publicity']">Na Mídia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/dash']">Parceiros</a>
                 </li>
 
             </ul>
