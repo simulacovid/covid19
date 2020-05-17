@@ -9,12 +9,13 @@ import { DashComponent } from './pages/dash/dash.component';
 
 import { HowtouseComponent } from './pages/howtouse/howtouse.component';
 import { PublicityComponent } from './pages/publicity/publicity.component';
-import { ResearcherComponent } from './pages/researcher/researcher.component';
+import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { PublicationsComponent } from './pages/publications/publications.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CaseStudyComponent } from './pages/case-study/case-study.component';
 import { HowToActComponent } from './pages/how-to-act/how-to-act.component';
-
+import { StatisticsComponent } from './pages/statistics/statistics.component';
+import { PartnersComponent } from './pages/partners/partners.component';
 
 import { Article1Component } from './publications/article1/article1.component'
 import { Article2Component } from './publications/article2/article2.component'
@@ -24,13 +25,15 @@ import { Note2Component } from './publications/note2/note2.component'
 
 const routes: Routes =[
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'components', component: ComponentsComponent },
-  { path: 'nucleoicons',component: NucleoiconsComponent },
+  { path: 'home',    component: HomeComponent },
+  { path: 'casestudy',    component: CaseStudyComponent },
   { path: 'dash',       component: DashComponent },
   { path: 'howtouse',    component: HowtouseComponent },
-  { path: 'casestudy',    component: CaseStudyComponent },
   { path: 'howtoact',    component: HowToActComponent },
-  { path: 'home',    component: HomeComponent },
+  { path: 'statistics',    component: StatisticsComponent },
+  { path: 'partners',    component: PartnersComponent },
+  { path: 'components', component: ComponentsComponent },
+  { path: 'nucleoicons',component: NucleoiconsComponent },
   { path: 'publications',    component: PublicationsComponent,
   children: [
     {
@@ -51,7 +54,7 @@ const routes: Routes =[
     }
   ]
 },
-{ path: 'researcher',    component: ResearcherComponent },
+{ path: 'aboutus',    component: AboutusComponent },
 { path: 'publicity',    component: PublicityComponent },
 ];
 

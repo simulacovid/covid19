@@ -4,6 +4,8 @@ $red-main:                  rgba(#EB392C, .98);
 $red-light:                  rgba(#F73C2F, .98);
 $red-dark:                  rgba(#AB2A20, .98);
 
+
+/*html tags*/
 body{
     a{
         font-weight: 700;
@@ -26,10 +28,8 @@ pdf-viewer {
         border-radius: 0;
         background-color: $red-main;
         border-color: $red-main;
-        
     }
 }
-
 button{
     &:focus{
         outline: none;
@@ -64,6 +64,35 @@ textarea{
     }
     
 }
+.navbar{
+    .navbar-brand{
+        padding: 5px;
+        .logo-web{
+            height: 9vh;
+        }
+    }
+}
+.footer{
+    .logo-apoio{
+        height: 10vh;
+    }
+    
+    .credits, .footer-nav {
+        line-height: 120px;
+    }
+}
+/* pages */
+.main-header{
+    margin-bottom: 30px;
+    padding: 25px 0;
+    
+    h3{
+        letter-spacing: +2px;
+        font-weight: 700;
+        font-size: 46px;
+        text-transform: uppercase;
+    }
+}
 .home{
     p{
         margin-bottom: 15px;
@@ -97,37 +126,6 @@ textarea{
         }
     }
 }
-
-.main-header{
-    margin-bottom: 30px;
-    padding: 25px 0;
-    
-    h3{
-        letter-spacing: +2px;
-        font-weight: 700;
-        font-size: 50px;
-        text-transform: uppercase;
-    }
-}
-
-.navbar{
-    .navbar-brand{
-        padding: 5px;
-        .logo-web{
-            height: 9vh;
-        }
-    }
-}
-.footer{
-    .logo-apoio{
-        height: 10vh;
-    }
-    
-    .credits, .footer-nav {
-        line-height: 120px;
-    }
-    
-}
 .dash{
     .simulador{
         height: 115vh;
@@ -138,7 +136,7 @@ textarea{
         }
     }
 }
-.researcher{
+.aboutus{
     .section-title{
         color: $red-main;
         font-weight: 600;
@@ -149,7 +147,11 @@ textarea{
         text-transform: uppercase;
     }
 }
-
+.howtoact{
+    p{
+        text-align:justify;
+    }
+}
 .publicity{
     .publicity-title{
         display: inline;
@@ -198,10 +200,6 @@ textarea{
             border-color: $red-main;
         }
     }
-}
-.main-bg{
-    background-color: white;
-    padding: 20px 20px;
 }
 .howtouse{
     text-align: justify;
