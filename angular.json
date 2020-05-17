@@ -16,7 +16,7 @@
             "main": "src/main.ts",
             "tsConfig": "src/tsconfig.app.json",
             "polyfills": "src/polyfills.ts",
-            "aot":false,
+            "aot": false,
             "assets": [
               "src/assets",
               "src/favicon.ico",
@@ -50,7 +50,7 @@
               "serviceWorker": false,
               "ngswConfigPath": "ngsw-config.json"
             },
-            "pt":{
+            "pt": {
               "aot": true,
               "outputPath": "dist/",
               "i18nFile": "src/locale/messages.pt.xlf",
@@ -69,7 +69,7 @@
             "production": {
               "browserTarget": "acaocovid19:build:production"
             },
-            "pt":{
+            "pt": {
               "browserTarget": "acaocovid19:build:pt"
             }
           }
@@ -111,6 +111,10 @@
             ],
             "exclude": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     },
