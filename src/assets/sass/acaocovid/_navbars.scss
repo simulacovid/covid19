@@ -61,7 +61,6 @@
         .nav-item .nav-link.btn{
             margin: $navbar-margin-a-btn;
             padding: 9px;
-
          }
 
         .dropdown-menu{
@@ -116,9 +115,9 @@
     .caret{
        @include center-item();
     }
-    &.navbar-transparent{
-        // padding-top: 25px;
-    }
+    // &.navbar-transparent{
+    //     padding-top: 25px;
+    // }
     .logo-container{
         margin-top: 5px;
         .logo{

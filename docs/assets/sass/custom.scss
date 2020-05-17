@@ -4,6 +4,8 @@ $red-main:                  rgba(#EB392C, .98);
 $red-light:                  rgba(#F73C2F, .98);
 $red-dark:                  rgba(#AB2A20, .98);
 
+
+/*html tags*/
 body{
     a{
         font-weight: 700;
@@ -26,10 +28,8 @@ pdf-viewer {
         border-radius: 0;
         background-color: $red-main;
         border-color: $red-main;
-        
     }
 }
-
 button{
     &:focus{
         outline: none;
@@ -38,19 +38,32 @@ button{
 textarea{
     resize: none;
 }
-
-.main-header{
-    margin-bottom: 30px;
-    padding: 25px 0;
+.card{
+    border-radius: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    border: 0 none;
+    padding: 20px;
     
-    h3{
-        letter-spacing: +2px;
-        font-weight: 700;
-        font-size: 50px;
-        text-transform: uppercase;
+    h4, h3, h5{
+        font-weight: 600;
+        color: $red-main;
+        // text-transform: uppercase;
+        margin-bottom: 15px;
+        margin-top: 0px;
     }
+    .box-social-media{
+        p{
+            text-align: center;
+        }
+    }
+    
 }
-
 .navbar{
     .navbar-brand{
         padding: 5px;
@@ -63,24 +76,82 @@ textarea{
     .logo-apoio{
         height: 10vh;
     }
-
+    
     .credits, .footer-nav {
         line-height: 120px;
     }
-
+}
+/* pages */
+.main-header{
+    margin-bottom: 30px;
+    padding: 25px 0;
+    
+    h3{
+        letter-spacing: +2px;
+        font-weight: 700;
+        font-size: 46px;
+        text-transform: uppercase;
+    }
+}
+.home{
+    p{
+        margin-bottom: 15px;
+    }
+}
+.copacabana{
+    p{
+        text-align: justify;
+    }
+    .table1{
+        caption{
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+        thead tr th,tbody tr td{
+            text-align: center;
+        }
+    }
+    .table2{
+        caption{
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+        thead tr th,tbody tr td, tbody tr th{
+            text-align: center;
+        }
+    }
+    .references{
+        li{
+            margin: 15px 0;
+        }
+    }
 }
 .dash{
     .simulador{
         height: 115vh;
         margin-top: 50px;
+        
+        iframe{
+            overflow-y: scroll;
+        }
     }
 }
-.researcher{
-    .teacher{
+.aboutus{
+    .section-title{
+        color: $red-main;
+        font-weight: 600;
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+    .researcher{
         text-transform: uppercase;
     }
 }
-
+.howtoact{
+    p{
+        text-align:justify;
+    }
+}
 .publicity{
     .publicity-title{
         display: inline;
@@ -130,10 +201,6 @@ textarea{
         }
     }
 }
-.main-bg{
-    background-color: white;
-    padding: 20px 20px;
-}
 .howtouse{
     text-align: justify;
     
@@ -142,11 +209,12 @@ textarea{
         max-width:300px;
     }
     
-    .main-bg h4, .main-bg h3{
+    .card h4, .card h3{
         font-weight: 600;
         color: $red-main;
         // text-transform: uppercase;
         margin-bottom: 10px;
+        margin-top: 0px;
     }
     strong{
         font-weight: 500;
