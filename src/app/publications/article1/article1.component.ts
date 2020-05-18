@@ -29,5 +29,4 @@ export class Article1Component implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

@@ -22,11 +22,12 @@ import { Article2Component } from './publications/article2/article2.component'
 
 import { Note1Component } from './publications/note1/note1.component'
 import { Note2Component } from './publications/note2/note2.component'
+import { Note3Component } from './publications/note3/note3.component'
 
 const routes: Routes =[
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home',    component: HomeComponent },
-  { path: 'casestudy',    component: CaseStudyComponent },
+  { path: 'copacabana',    component: CaseStudyComponent },
   { path: 'dash',       component: DashComponent },
   { path: 'howtouse',    component: HowtouseComponent },
   { path: 'howtoact',    component: HowToActComponent },
@@ -43,6 +44,10 @@ const routes: Routes =[
     {
       path: 'note2',
       component: Note2Component
+    },
+    {
+      path: 'note3',
+      component: Note3Component
     },
     {
       path: 'article1',

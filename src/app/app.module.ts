@@ -18,6 +18,7 @@ import { Article1Component } from './publications/article1/article1.component';
 import { Article2Component } from './publications/article2/article2.component';
 import { Note1Component } from './publications/note1/note1.component';
 import { Note2Component } from './publications/note2/note2.component';
+import { Note3Component } from './publications/note3/note3.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { Note2Component } from './publications/note2/note2.component';
     Article2Component,
     Note1Component,
     Note2Component,
+    Note3Component,
   ],
   imports: [
     BrowserModule,

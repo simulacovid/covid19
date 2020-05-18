@@ -10,12 +10,27 @@
         </div>
         <div class="navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/dash']">Simulador</a>
+                <li class="nav-item dropdown">
+                    <div ngbDropdown class="d-inline-block dropdown">
+                        <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>Simulador</a>
+                        <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdown-primary">
+                          <a class="dropdown-item" [routerLink]="['/dash']">Simulador</a>
+                          <a class="dropdown-item" [routerLink]="['/howtouse']">Como Usar</a>
+                        </div>
+                      </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/howtouse']">Como Usar</a>
+                    <a class="nav-link" [routerLink]="['/howtoact']">Como Agir?</a>
                 </li>
+                <li class="nav-item dropdown">
+                    <div ngbDropdown class="d-inline-block dropdown">
+                        <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>Estudos</a>
+                        <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdown-primary">
+                          <a class="dropdown-item" [routerLink]="['/copacabana']">Copacabana</a>
+                        </div>
+                      </div>
+                </li>
+                
                 <li class="nav-item">
                     <a class="nav-link" [routerLink]="['/statistics']">Estatísticas</a>
                 </li>

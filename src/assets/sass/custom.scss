@@ -38,6 +38,25 @@ button{
 textarea{
     resize: none;
 }
+.dropdown .dropdown-menu .dropdown-item:first-child a,
+.dropdown .dropdown-menu .dropdown-item:first-child,
+.dropdown .dropdown-menu .dropdown-item:last-child a,
+.dropdown .dropdown-menu .dropdown-item:last-child{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.dropdown .dropdown-menu.dropdown-primary .dropdown-item:hover, 
+.dropdown .dropdown-menu.dropdown-primary .dropdown-item:focus{
+    background-color: $red-main;
+    color: white;
+    font-weight: 400;
+}
+.dropdown .dropdown-menu .dropdown-item {
+    margin-top: 1px;
+}
+
 .card{
     border-radius: none;
     border-top-left-radius: 0;
@@ -78,11 +97,18 @@ textarea{
             &:last-child{
                 padding: 10px 0 10px 15px;
             }
-
+            
             .nav-link{
                 margin: 0;
                 padding: 0;
+
+                &:hover{
+                    cursor: pointer;
+                }
             }
+        }
+        .dropdown-menu{
+            border-radius: 0;
         }
     }
 }
@@ -151,6 +177,10 @@ textarea{
     iframe{
         // width: 75%;
     }
+    .table-ivcovid{
+        height: 95vh;
+        overflow-y: scroll;
+    }
 }
 .aboutus{
     .section-title{
@@ -162,6 +192,11 @@ textarea{
     .researcher{
         text-transform: uppercase;
     }
+    .teamlist{
+        p{
+            text-align: justify;
+        }
+    }
 }
 .howtoact{
     p{
@@ -169,6 +204,13 @@ textarea{
     }
     ol > li{
         margin: 10px 0;
+    }
+}
+.statistics{
+    .img-fluid{
+        width: 75%;
+        display: block;
+        text-align: center;
     }
 }
 .publicity{
