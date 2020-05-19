@@ -101,7 +101,7 @@ textarea{
             .nav-link{
                 margin: 0;
                 padding: 0;
-
+                
                 &:hover{
                     cursor: pointer;
                 }
@@ -172,14 +172,16 @@ textarea{
 .dash{
     .simulador{
         height: 95vh;
-        overflow-y: scroll;
-    }
-    iframe{
-        // width: 75%;
+        // // overflow-y: scroll;
+        // border:1px solid #f0f;
     }
     .table-ivcovid{
         height: 95vh;
         overflow-y: scroll;
+        overflow-x: hidden;
+        table{
+            font-size: 0.9em;
+        }
     }
 }
 .aboutus{

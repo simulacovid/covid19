@@ -13,26 +13,26 @@
                     <div class="card">
                         <div *ngIf="isMobile == false" class="simulador embed-responsive embed-responsive-4by3">
                             <iframe src="https://zecopol.github.io/zecopol/" 
-                            scrolling="yes" 
-                            sandbox="allow-same-origin allow-scripts"></iframe>
+                            scrolling="yes"></iframe>
+                            <!-- sandbox="allow-same-origin allow-scripts" -->
                         </div>
                     </div>
-                    <div *ngIf="isMobile == true" class="mobile-dash">
+                    <!-- <div *ngIf="isMobile == true" class="mobile-dash">
                         <div class="card">
                             <p>Desculpe mas o simulador ainda não está preparado para a versão mobile, favor usar um computador.</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="card table-ivcovid">
                         <h4>Rio de Janeiro</h4>
                         <div class="table-responsive-sm table-responsive-md">
-                            <table class="table table-bordered table-striped">
+                            <table class="table table-bordered table-striped table-sm">
                                 <thead>
                                     <tr>
                                         <th>Bairro</th>
-                                        <th>Densidade/(hab./km²)</th>
-                                        <th>IVCovid</th>
+                                        <th>Densidade <br>(hab./km²)</th>
+                                        <th>IVC <br> IVCovid</th>
                                         <th>IDH</th>
                                     </tr>
                                 </thead>
