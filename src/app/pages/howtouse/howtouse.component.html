@@ -11,121 +11,110 @@
             <div class="row">
                 <div class="col-xs-12 col-md-12">
                     <div class="card">
-                        <h3>O que é isso?</h3>
+                        <h3>Como usar o MD Corona?</h3>
                         <p>
-                            A construção desse modelo foi inspirada pelo sucesso da divulgação do estudo desenvolvido por Harry Stevens e publicado na página do jornal Washington Post dia 14 de Março de 2020 (<a href="https://www.washingtonpost.com/graphics/2020/world/corona-simulator/" target="_blank">https://www.washingtonpost.com/graphics/2020/world/corona-simulator/</a>) onde o autor explora diferentes cenarios de atenuação e supressão social para conter o avanço do coronavírus.
+                            O botão <strong>RESETAR</strong> recomeça os gráficos e distribui aleatoriamente o número de pessoas (definida pela densidade populacional). Todas as pessoas, exceto uma, são consideradas saudáveis e suscetíveis ao vírus e definidas com a cor verde. O programa fixa 1 pessoa inicialmente infectada que é definida pela cor vermelha. Todas as pessoas são distribuídas com idades aleatoriamente. 
                         </p>
                         <p>
-                            Para a construção do Modelo de Dispersão do Coronavírus (MD Corona), modificamos o modelo original Vírus (Wilensky, 1998) presente na biblioteca do software livre NetLogo (Wilensky, 1999). O modelo original foi inspirado pelo artigo de Yorke et al (1979) em que biólogos ecologistas sugeriram um número de fatores que poderiam influenciar a sobrevivência de um vírus com transmissão direta entre uma população. As modificações específicas que fazem parte do MD Corona serão destacadas abaixo.
+                            O botão <strong>INICIAR/PARAR</strong> inicia a simulação e os gráficos e também para a simulação.
                         </p>
                     </div>
                     <div class="card">
                         <h3>Como ele funciona</h3>
+                        <p>O simulador é iniciado com 3 parâmetros: </p>
+                        
+                        <ul>
+                            <li>Densidade Populacional</li>
+                            <li>IDH (Índice de Desenvolvimento Humano) ou Índice de Vulnerabilidade ao Covid-19 (IVC)</li>
+                            <li>Letalidade</li>
+                        </ul>
+                        
+                        <p>A densidade populacional (mínimo 3.400 hab/km² e máximo 34.000 hab/km²) é convertida pelo modelo em número de pessoas que estarão distribuídas aleatoriamente no ambiente. </p>
+                        
                         <p>
-                            O modelo é iniciado com um número de pessoas (mínimo 10 e máximo 1000) distribuídas aleatoriamente num ambiente. Entre essas pessoas é possível definir o número de pessoas que estão infectadas no início. No modelo original Vírus (1998) esse último parâmetro é fixo em 10 pessoas, no MD Corona é possível escolher quantas pessoas iniciam o modelo infectadas. Outra diferença importante entre os dois modelos é a escala de tempo. No modelo original do Netlogo a escala é em semanas enquanto no MD Corona ela é em dias.
+                            Entre essas pessoas uma está infectada desde o início. O IDH/ICV tem 4 escalas (baixo, médio, médio-alto, alto) e é uma medida da vulnerabilidade do local. Os valores devem ser consultados na tabela. O modelo traduz cada elemento da escala em uma probabilidade efetiva de transmissão pessoa-a-pessoa, definida pela calibração com a cidade de Nova York como sendo: baixo = 61%, médio = 59%, médio-alto = 57%, e alto = 55%. 
                         </p>
                         
                         <p>
-                        </p>
-                            <p>As pessoas podem se mover aleatoriamente nesse mundo (o quadrado preto) estando em um dos três estados: </p>
-                            <ul class="list-unstyled">
-                                <li>
-                                    a) saudável mas suscetível a ser contaminado pelo vírus <strong style="color: green">(verde)</strong>
-                                </li>
-                                <li>
-                                    b) infectadas e transmitindo o vírus <strong style="color: red">(vermelho)</strong>
-                                </li>
-                                <li>
-                                    c) saudáveis e imunes <strong style="color: gray">(cinza)</strong>
-                                </li>
-                            </ul>
-                        
-                        <p>
-                            No modelo as pessoas morrem de infecção ou de idade. Quando a população cai abaixo da "capacidade máxima" do ambiente (fixa em 1000 neste modelo), pessoas saudáveis podem produzir descendentes saudáveis (mas suscetíveis à contaminação).
+                            Por fim, a letalidade é traduzida em chance de recuperação, que possui dois níveis: alto=99% e baixo=98%. Sendo o primeiro definido pela calibração.
                         </p>
                         
                         <p>
-                            Por fim, realizamos outras duas grandes inovações em relação ao modelo original: a possibilidade de parar (confinar) uma % de pessoas no ambiente; e a introdução, a cada 30 dias, de um agente infectado pelo vírus, o que acabou por tornar o ambiente do modelo aberto (antes era fechado). Essa última inovação aproxima o modelo da realidade, visto que novos surtos da pandemia voltaram a atingir a China, país que havia decretado, poucos dias atrás, o fim da quarentena
+                            No modelo a escala de tempo é em dias e cada rodada equivale a um dia. As pessoas podem mover-se aleatoriamente nesse mundo (o quadrado preto) estando em um dos três estados:
                         </p>
-                        
-                        <h4>A densidade populacional</h4>
-                        <p>
-                            A densidade Populacional afeta o quão frequente pessoas infectadas, imunes e suceptíveis podem entrar em contato umas com as outras. Você pode mudar o tamanho da população inicial através do slider NUMERO-DE-PESSOAS .
-                        </p>
-                        
-                        <h4>Rotatividade da população</h4>
-                        <p>
-                            À medida que os indivíduos morrem, alguns que morrerem serão infectados, outros serão suscetíveis e outros serão imunes. Todos os novos indivíduos que nascerem, substituindo os que morrerem, serão saudáveis e suscetíveis. As pessoas podem morrer do vírus, cujas chances são determinadas pelo slider CHANCE-DE-RECUPERAÇÃO, ou podem morrer de velhice.
-                        </p>
+                        <ul>
+                            <li>saudável mas suscetível a ser contaminado pelo vírus (verde)</li>
+                            <li>infectadas e transmitindo o vírus (vermelho)</li>
+                            <li>saudáveis e imunes (cinza)</li>
+                        </ul>
                         
                         <p>
-                            Nesse modelo as pessoas morrem de velhice com 50 anos de idade. A taxa de reprodução é constante. A cada iteração, se a "capacidade máxima" não tiver sido atingida, cada indivíduo saudável têm 1% de chance de se reproduzir.
+                            O parâmetro <strong>CONFINAMENTO</strong> permite parar uma porcentagem das pessoas no ambiente, o que reduz a velocidade da transmissão. Ele é dinâmico, ou seja, pode ser alterado durante a simulação sem a necessidade de resetar o simulador, como ocorre quando modificamos os demais parâmetros. 
                         </p>
-                        
-                        <h4>Grau de imunidade</h4>
                         <p>
-                            Se uma pessoa for infectada e se recuperar, o quão imune ela estará do vírus? Geralmente assumimos que a imunidade dura a vida inteira e é garantida, mas, em alguns casos, a imunidade desaparece com o tempo e a imunidade pode não ser absolutamente segura. No modelo original do Netlogo, a imunidade é segura, mas dura apenas um ano. No MD Corona, a imunidade é segura mas controlada pelo slider TEMPO-DE-IMUNIDADE-AO-VÍRUS que pode variar de cinco dias a um ano.
+                            No modelo as pessoas morrem de infecção ou de idade (75 anos). Quando a população cai abaixo da "capacidade máxima" do ambiente (fixa em 1200 neste modelo), pessoas saudáveis podem produzir descendentes saudáveis (mas suscetíveis à contaminação). 
+                            Outro fator importante é a introdução, a cada 90 dias, de um agente infectado pelo vírus, o que acabou por tornar o ambiente do modelo aberto e mais condizente com a realidade
+                            
                         </p>
-                        
-                        <h4>Capacidade de transmissão</h4>
                         <p>
-                            Com que facilidade o vírus se espalha? Alguns vírus com os quais estamos familiarizados se espalham com muita facilidade. Alguns vírus se espalham com pouco contato todas as vezes. Outros (o vírus HIV por exemplo, que é responsável pela Aids) requerem contato significativo, muitas vezes repedidas, antes da transmissão do vírus. Neste modelo, a capacidade de transmissão é determinada pelo slider CHANCE-DE-TRASMISSÃO.
+                            Duração da janela de transmissão. Quanto tempo uma pessoa fica infectada antes de se recuperar ou morrer? Esse período de tempo é essencialmente a janela de oportunidade do vírus para transmissão para novos hospedeiros. Neste modelo, a duração da janela de transmissão é fixa em 18 dias.
                         </p>
-                        
-                        <h4>Duração da janela de transmissão</h4>
                         <p>
-                            Quanto tempo uma pessoa fica infectada antes de se recuperar ou morrer? Esse período de tempo é essencialmente a janela de oportunidade do vírus para transmissão para novos hospedeiros. Neste modelo, a duração da janela de transmissão é determinada pelo slider JANELA-DE-TRANSMISSÃO.
-                        </p>
-                        
-                        <h4>Confinamento</h4>
-                        <p>
-                            E se ao invéz de circular livremente as pessoas ficassem paradas no ambiente? O confinamento das pessoas em suas casas é uma das medidas sugeridas para conter a transmissão do Corona vírus. Essa variável não está presente no modelo original "Virus" do Netlogo. No MD Corona, o número de pessoas confinadas é determinado pelo slider PORCENTAGEM-DE-CONFINADOS. Note que essa varável pode ser alterada durante a simulação (sem precisar Resetar).
-                        </p>
-                        
-                        <h4>Parâmetros relacionados ao código</h4>
-                        <p>
-                            Três parâmetros importantes deste modelo são definidos como constantes no código (consulte o procedimento inicializar-constantes). Eles podem ser expostos como sliders, se desejado. O tempo de vida das pessoas, definidas como turtles (tartarugas) no código, é de 75 anos (expectativa de vida no Brasil em 2020), a capacidade máxima de pessoas do mundo é de 300 e a taxa de natalidade é de 1 em 100 chances de se reproduzir por rodada quando o número de pessoas é menor que a capacidade de máxima. No modelo original do Netlogo a duração da imunidade também é constante e fixa em 52 semanas. No MD corona a imunidade é uma variável (definida acima).
+                            Quatro monitores (quadros amarelos) de saída mostram a porcentagem da população infectada, a porcentagem de pessoas imunes ao vírus, a porcentagem de mortos e o número de dias que se passaram. O gráfico mostra (em suas respectivas cores) o número de pessoas infectadas e imunes. 
                         </p>
                     </div>
                     <div class="card">
-                        <h3>Como usar o MD Corona</h3>
-                        <p>
-                        Cada "volta" representa um dia na escala de tempo deste modelo. Essa é uma importante modificação do modelo original do Netlogo em que a escala de tempo era definida em semanas.
-                        </p>
+                        <h3>O que é isso?</h3>
+                        <p>A construção desse modelo foi inspirada pelo sucesso da divulgação do estudo desenvolvido por Harry Stevens e publicado na página do jornal Washington Post dia 14 de Março de 2020 (<a href="https://www.washingtonpost.com/graphics/2020/world/corona-simulator/" target="_blank">https://www.washingtonpost.com/graphics/2020/world/corona-simulator/</a>) onde o autor explora diferentes cenarios de atenuação e supressão social para conter o avanço do coronavírus. </p>
+                        <p>Para a construção do Modelo de Dispersão do Coronavírus (MD Corona), modificamos o modelo original Vírus (Wilensky, 1998) presente na biblioteca do software livre NetLogo (Wilensky, 1999). O modelo original foi inspirado pelo artigo de Yorke et al (1979) em que biólogos ecologistas sugeriram um número de fatores que poderiam influenciar a sobrevivência de um vírus com transmissão direta entre uma população. As modificações específicas que fazem parte do MD Corona serão destacadas abaixo.</p>
                         
-                        <ul class="list-unstyled">
+                        <h3>
+                            Como Citar
+                        </h3>
+                        <p>
+                            Se você mencionar este modelo ou o software NetLogo numa publicação, pedimos para que inclua as citações abaixo:
+                        </p>
+                        <p>Para o modelo Virus:</p>
+                        <ul>
                             <li>
-                                O slider <strong>NÚMERO-DE-PESSOAS</strong> define o número de pessoas entre 0 e 1000 que serão aleatóriamente distribuidas no ambiente.
-                            </li>
-                            <li>
-                                O slider <strong>PORCENTAGEM-DE-CONFINADOS</strong> controla o número de pessoas que estarão aleatoriamente paradas no ambiente. Ele é uma variável dinâmica, pode ser alterada durante a simulação sem precisar Resetar o simulador.
-                            </li>
-                            <li>
-                                O slider <strong>NÚMERO-DE-INFECTADOS-INICIAL</strong> define o número dentre as pessoas aleatóriamente destribuidas no ambiente que iniciarão infectadas.
-                            </li>
-                            <li>
-                                O slider <strong>CHANCE-DE-TRASMISSÃO</strong> determina a probabilidade de transmissão do vírus quando uma pessoa infectada e outra suscetível ocupar o mesmo sitio no ambiente. Por exemplo, quando o slider estiver definido como 50, o vírus se espalhará aproximadamente uma vez a cada dois encontros.
-                            </li>
-                            <li>
-                                O slider <strong>JANELA-DE-TRANSMISSÃO</strong> determina o número de dias antes que uma pessoa infectada morra ou se recupere.
-                            </li>
-                            <li>
-                                O slider <strong>CHANCE-DE-RECUPERAÇÃO</strong> controla a probabilidade de uma infecção terminar em recuperação/imunidade. Quando esse controle é definido como zero, por exemplo, a infecção é sempre mortal.
-                            </li>
-                            <li>
-                                O slider <strong>TEMPO-DE-IMUNIDADE-AO-VÍRUS</strong> define o tempo em dias em que a pessoa fica imune a transmissão do vírus ao ter contato com a pessoa infectada.
-                            </li>
-                            <li>
-                                O botão <strong>RESETAR</strong> recomeça os gráficos e distribui aleatoriamente o NÚMERO-DE-PESSOAS no ambiente. Todas as pessoas, exceto as NÚMERO-DE-INFECTADOS-INICIAL, são consideradas saudáveis e suscetíveis ao vívus e definidas com a cor verde. as NÚMERO-DE-INFECTADOS-INICIAL pessoas infectadas são definidas pela cor vermelha. Todos com idades distribuídas aleatoriamente. O botão INICIAR/PARAR inicia a simulação e os gráficos e também para a simulação.
-                            </li>
-                            <li>
-                                O botão <strong>FORMA-PESSOA-OU-BOLA</strong> controla se as pessoas são visualizadas com Fformato de círculos ou de pessoas.
+                                Wilensky, U. (1998).  NetLogo Virus model.  http://ccl.northwestern.edu/netlogo/models/Virus.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
                             </li>
                         </ul>
                         <p>
-                            Três monitores de saída mostram a porcentagem da população infectada, a porcentagem imune e o número de dias que se passaram. O gráfico mostra (em suas respectivas cores) o número de pessoas sucetível, infectadas e imunes. Também mostra o número total de indivíduos na população em azul.
+                            Para o modelo MD Corona:
                         </p>
+                        <ul>
+                            <li>Guedes Pinto, José Paulo; Magalhães, Patrícia; Santos Carlos Silva. (2020). Modelo de Dispersão Comunitária Coronavírus (MD Corona), Universidade Federal do ABC, São Bernardo do Campo, Brasil.</li>
+                        </ul>
+                        <p>
+                            Por favor cite o software NetLogo como:
+                        </p>
+                        <ul>
+                            <li>
+                                Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+                            </li>
+                        </ul>
                     </div>
+                    <div class="card">
+                        <h3>Copyright and License</h3>
+                        <p>Copyright 2020 José Paulo Guedes Pinto, Patrícia Camargo Magalhães, Carlos da Silva dos Santos </p>
+                        <p>![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)</p>
+                        
+                        <p>Copyright 1998 Uri Wilensky.</p>
+                        
+                        <p>![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)</p>
+                        
+                        <p>Esse trabalho está sob a licença Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. Para ver uma cópia dessa licença visite: https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.</p>
+                        
+                        <p>Licenças comercial também estão disponíveis. Para indagar sobre isso, favor contactar Uri Wilensky at uri@northwestern.edu.</p>
+                        
+                        <p>O modelo MD Corona foi criado para gerar dados para o working paper "Simulando a evolução da transmissão comunitária do coronavírus através do Modelo M D Corona." de autoria de José Paulo Guedes Pinto, Patrícia Magalhães e Carlos da Silva Santos. 2020.</p>
+                        
+                        <p>This model was created as part of the project: CONNECTED MATHEMATICS: MAKING SENSE OF COMPLEX PHENOMENA THROUGH BUILDING OBJECT-BASED PARALLEL MODELS (OBPML). The project gratefully acknowledges the support of the National Science Foundation (Applications of Advanced Technologies Program) -- grant numbers RED #9552950 and REC #9632612.</p>
+                        
+                        <p>This model was converted to NetLogo as part of the projects: PARTICIPATORY SIMULATIONS: NETWORK-BASED DESIGN FOR SYSTEMS LEARNING IN CLASSROOMS and/or INTEGRATED SIMULATION AND MODELING ENVIRONMENT. The project gratefully acknowledges the support of the National Science Foundation (REPP & ROLE programs) -- grant numbers REC #9814682 and REC-0126227. Converted from StarLogoT to NetLogo, 2001. (1998-2020)</p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
