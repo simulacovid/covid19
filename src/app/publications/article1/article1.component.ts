@@ -19,12 +19,12 @@ export class Article1Component implements OnInit {
 
   nextPage() {
     this.page++;
-    console.log("next page");
+    // console.log("next page");
   }
 
   prevPage() {
     this.page--;
-    console.log("previous page");
+    // console.log("previous page");
   }
 
   ngOnInit(): void {

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./note3.component.scss']
 })
 export class Note3Component implements OnInit {
-  src = "https://github.com/zecopol/zecopol/raw/master/Artigo_IndiceVulnerabilidadeCOVID19_21052020.pdf";
+  src = "https://github.com/zecopol/zecopol/raw/master/Artigo_IVC_21052020.pdf";
   page: number = 1;
   totalPages: number;
   isLoaded: boolean = false;
@@ -19,12 +19,12 @@ export class Note3Component implements OnInit {
   
   nextPage() {
     this.page++;
-    console.log("next page");
+    // console.log("next page");
   }
   
   prevPage() {
     this.page--;
-    console.log("previous page");
+    // console.log("previous page");
   }
   
   ngOnInit(): void {
