@@ -173,8 +173,6 @@ textarea{
 .dash{
     .simulador{
         height: 95vh;
-        // // overflow-y: scroll;
-        // border:1px solid #f0f;
     }
     .table-ivcovid{
         height: 95vh;
@@ -213,11 +211,6 @@ textarea{
     }
 }
 .statistics{
-    .img-fluid{
-        width: 75%;
-        display: block;
-        text-align: center;
-    }
     .accordion>.card>.card-header{
         padding: 0;
         background-color: transparent;
@@ -230,6 +223,10 @@ textarea{
                 margin-bottom: 0;
             }
         }
+    }
+    #riodejaneiro{
+        width: 70vw;
+        height: 1000px;
     }
 }
 .publicity{
@@ -344,6 +341,12 @@ textarea{
     .publications{
         .list-group{
             margin-bottom: 15px;
+        }
+    }
+    .statistics{
+        #riodejaneiro{
+            width: 75vw;
+            height: 280px;
         }
     }
     .howtoact .pyramid {
