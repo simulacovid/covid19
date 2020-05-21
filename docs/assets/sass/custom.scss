@@ -207,12 +207,28 @@ textarea{
     ol > li{
         margin: 10px 0;
     }
+    .pyramid{
+        width: 40vw;
+    }
 }
 .statistics{
     .img-fluid{
         width: 75%;
         display: block;
         text-align: center;
+    }
+    .accordion>.card>.card-header{
+        padding: 0;
+        background-color: transparent;
+        border-bottom: none;
+
+        .btn.btn-link{
+            padding: 0;
+
+            h4{
+                margin-bottom: 0;
+            }
+        }
     }
 }
 .publicity{
