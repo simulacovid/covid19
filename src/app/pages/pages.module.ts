@@ -14,7 +14,7 @@ import { NotesComponent } from './notes/notes.component';
 import { PublicityComponent } from './publicity/publicity.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { HomeComponent } from './home/home.component';
-import { CaseStudyComponent } from './case-study/case-study.component';
+import { CopacabanaComponent } from './case-study/copacabana/copacabana.component';
 import { HowToActComponent } from './how-to-act/how-to-act.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { PartnersComponent } from './partners/partners.component';
@@ -36,7 +36,7 @@ import { PartnersComponent } from './partners/partners.component';
         PublicityComponent,
         PublicationsComponent,
         HomeComponent,
-        CaseStudyComponent,
+        CopacabanaComponent,
         HowToActComponent,
         StatisticsComponent,
         PartnersComponent,

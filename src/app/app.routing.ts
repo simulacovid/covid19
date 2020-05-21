@@ -12,7 +12,7 @@ import { PublicityComponent } from './pages/publicity/publicity.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { PublicationsComponent } from './pages/publications/publications.component';
 import { HomeComponent } from './pages/home/home.component';
-import { CaseStudyComponent } from './pages/case-study/case-study.component';
+import { CopacabanaComponent } from './pages/case-study/copacabana/copacabana.component';
 import { HowToActComponent } from './pages/how-to-act/how-to-act.component';
 import { StatisticsComponent } from './pages/statistics/statistics.component';
 import { PartnersComponent } from './pages/partners/partners.component';
@@ -27,7 +27,7 @@ import { Note3Component } from './publications/note3/note3.component'
 const routes: Routes =[
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home',    component: HomeComponent },
-  { path: 'copacabana',    component: CaseStudyComponent },
+  { path: 'copacabana',    component: CopacabanaComponent },
   { path: 'dash',       component: DashComponent },
   { path: 'howtouse',    component: HowtouseComponent },
   { path: 'howtoact',    component: HowToActComponent },

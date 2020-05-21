@@ -11,10 +11,10 @@
             <div class="row">
                 <div class="col-sm-12 col-md-8">
                     <div class="card">
-                        <div *ngIf="isMobile == false" class="simulador embed-responsive embed-responsive-4by3">
+                        <div class="simulador embed-responsive embed-responsive-4by3">
                             <iframe src="https://zecopol.github.io/zecopol/" 
                             scrolling="yes"></iframe>
-                            <!-- sandbox="allow-same-origin allow-scripts" -->
+                            <!-- sandbox="allow-same-origin allow-scripts" / *ngIf="isMobile == false" -->
                         </div>
                     </div>
                     <!-- <div *ngIf="isMobile == true" class="mobile-dash">
