@@ -13,9 +13,7 @@
     "e2e": "ng e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "update:packages": "rm -rf node_modules && npm update --save-dev && npm update --save",
-    "build:github": "ng build --output-path docs --base-href /covid19/ && ng deploy --base-href=/covid19/ && firebase deploy",
-    "build:firebase": "ng build --output-path docs && firebase deploy",
-    "build:all": "ng build --output-path docs --base-href /covid19/ && ng deploy --base-href=/covid19/ && firebase deploy"
+    "build:github": "ng build --output-path docs --base-href /covid19/ && ng deploy --base-href=/covid19/"
   },
   "dependencies": {
     "@angular/animations": "9.1.4",
