@@ -5,6 +5,7 @@ import 'rxjs/add/operator/filter';
 import { DOCUMENT } from '@angular/common';
 import { LocationStrategy, PlatformLocation, Location } from '@angular/common';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import * as $ from 'jquery';  
 
 @Component({
     selector: 'app-root',
@@ -12,6 +13,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
     styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+
     private _router: Subscription;
     @ViewChild(NavbarComponent) navbar: NavbarComponent;
 

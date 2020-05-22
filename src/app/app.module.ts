@@ -20,6 +20,8 @@ import { Note1Component } from './publications/note1/note1.component';
 import { Note2Component } from './publications/note2/note2.component';
 import { Note3Component } from './publications/note3/note3.component';
 
+import * as $ from "jquery";
+
 @NgModule({
   declarations: [
     AppComponent,

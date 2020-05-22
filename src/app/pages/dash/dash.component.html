@@ -1,6 +1,6 @@
 <div class="main dash">
     <div class="section section-gray text-center">
-        <div class="container">
+        <!-- <div class="container"> -->
             <div class="row">
                 <div class="col-xs-12 col-md-12">
                     <div class="main-header text-center">
@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-8">
+                <div class="col-sm-12 col-md-6">
                     <div class="card">
                         <div class="simulador embed-responsive embed-responsive-4by3">
                             <iframe src="https://zecopol.github.io/zecopol/" 
@@ -18,22 +18,28 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-6">
                     <div class="card table-ivcovid">
                         <h4>Rio de Janeiro</h4>
                         <div class="table-responsive-sm table-responsive-md">
-                            <table class="table table-bordered table-striped table-sm">
+                            <table class="table table-striped table-bordered table-sm row-border hover" datatable [dtOptions]="dtOptions" >
                                 <thead>
                                     <tr>
                                         <th>Bairro</th>
-                                        <th>IVCovid</th>
+                                        <th>Densidade</th>
+                                        <th>IVC</th>
+                                        <th>Classificação IVC</th>
                                         <th>IDH</th>
+                                        <th>Classificação IDH</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr *ngFor="let dados of ivc_rj; let i = index">
                                         <td>{{dados.bairro}}</td>
+                                        <td>{{dados.densidade}}</td>
+                                        <td>{{dados.IVC}}</td>
                                         <td>{{dados.ClassificacaoIVCovid}}</td>
+                                        <td>{{dados.IDH}}</td>
                                         <td>{{dados.ClassificacaoIDH}}</td>
                                     </tr>
                                 </tbody>
@@ -42,6 +48,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
     </div>
 </div>

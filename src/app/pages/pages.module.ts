@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 
 import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { DataTablesModule } from 'angular-datatables';
 
 import { DashComponent } from './dash/dash.component';
 import { HowtouseComponent } from './howtouse/howtouse.component';
@@ -19,13 +20,16 @@ import { HowToActComponent } from './how-to-act/how-to-act.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { PartnersComponent } from './partners/partners.component';
 
+import * as $ from "jquery";
+
 @NgModule({
     imports: [
         CommonModule,
         FormsModule,
         NgbModule,
         RouterModule,
-        PdfViewerModule
+        PdfViewerModule,
+        DataTablesModule
     ],
     declarations: [
         DashComponent,

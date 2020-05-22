@@ -5,7 +5,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.89,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "420"
+   densidade: "420"
  },
  {
    bairro: "Ipanema",
@@ -13,7 +13,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.94,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "13,856"
+   densidade: "13,856"
  },
  {
    bairro: "Leblon",
@@ -21,7 +21,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.94,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "21,385"
+   densidade: "21,385"
  },
  {
    bairro: "Lagoa",
@@ -29,7 +29,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.95,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "4,148"
+   densidade: "4,148"
  },
  {
    bairro: "Copacabana",
@@ -37,7 +37,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.94,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "35,698"
+   densidade: "35,698"
  },
  {
    bairro: "Flamengo",
@@ -45,7 +45,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.96,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "30,398"
+   densidade: "30,398"
  },
  {
    bairro: "Zumbi",
@@ -53,7 +53,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.65,
    ClassificacaoIDH: "Médio",
-   Densidade: "12,513"
+   densidade: "12,513"
  },
  {
    bairro: "Todos os Santos",
@@ -61,7 +61,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.9,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "24,338"
+   densidade: "24,338"
  },
  {
    bairro: "Vista Alegre",
@@ -69,7 +69,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.7,
    ClassificacaoIDH: "Alto",
-   Densidade: "16,735"
+   densidade: "16,735"
  },
  {
    bairro: "Ribeira",
@@ -77,7 +77,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.88,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "4,093"
+   densidade: "4,093"
  },
  {
    bairro: "Moneró",
@@ -85,7 +85,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.88,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "12,441"
+   densidade: "12,441"
  },
  {
    bairro: "Vila daPenha",
@@ -93,7 +93,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.89,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "17,737"
+   densidade: "17,737"
  },
  {
    bairro: "Praça da Bandeira",
@@ -101,7 +101,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.91,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "12,032"
+   densidade: "12,032"
  },
  {
    bairro: "Glória",
@@ -109,7 +109,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.91,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "8,474"
+   densidade: "8,474"
  },
  {
    bairro: "Barra da Tijuca",
@@ -117,7 +117,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.94,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "2,823"
+   densidade: "2,823"
  },
  {
    bairro: "Maracanã",
@@ -125,7 +125,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.94,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "15,148"
+   densidade: "15,148"
  },
  {
    bairro: "Abolição",
@@ -133,7 +133,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.84,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "18,425"
+   densidade: "18,425"
  },
  {
    bairro: "Laranjeiras",
@@ -141,7 +141,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.95,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "18,269"
+   densidade: "18,269"
  },
  {
    bairro: "Méier",
@@ -149,7 +149,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.89,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "20,166"
+   densidade: "20,166"
  },
  {
    bairro: "Maria da Graça",
@@ -157,7 +157,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.76,
    ClassificacaoIDH: "Alto",
-   Densidade: "9,663"
+   densidade: "9,663"
  },
  {
    bairro: "Humaitá",
@@ -165,7 +165,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.95,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "12,599"
+   densidade: "12,599"
  },
  {
    bairro: "Jardim Botânico",
@@ -173,7 +173,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.91,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "6,697"
+   densidade: "6,697"
  },
  {
    bairro: "Jardim Guanabara",
@@ -181,7 +181,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.93,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "10,048"
+   densidade: "10,048"
  },
  {
    bairro: "Riachuelo",
@@ -189,7 +189,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.95,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "13,633"
+   densidade: "13,633"
  },
  {
    bairro: "Parque Anchieta",
@@ -197,7 +197,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.71,
    ClassificacaoIDH: "Alto",
-   Densidade: "6,711"
+   densidade: "6,711"
  },
  {
    bairro: "Cachambi",
@@ -205,7 +205,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.84,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "18,850"
+   densidade: "18,850"
  },
  {
    bairro: "Cocotá",
@@ -213,7 +213,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.84,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "9,951"
+   densidade: "9,951"
  },
  {
    bairro: "Botafogo",
@@ -221,7 +221,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.95,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "17,273"
+   densidade: "17,273"
  },
  {
    bairro: "Leme",
@@ -229,7 +229,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.95,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "15,144"
+   densidade: "15,144"
  },
  {
    bairro: "Rocha",
@@ -237,7 +237,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.86,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "6,683"
+   densidade: "6,683"
  },
  {
    bairro: "Catete",
@@ -245,7 +245,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.87,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "35,325"
+   densidade: "35,325"
  },
  {
    bairro: "Praia da Bandeira",
@@ -253,7 +253,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.84,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "15,677"
+   densidade: "15,677"
  },
  {
    bairro: "Brás dePina",
@@ -261,7 +261,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.65,
    ClassificacaoIDH: "Médio",
-   Densidade: "16,814"
+   densidade: "16,814"
  },
  {
    bairro: "Irajá",
@@ -269,7 +269,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.81,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "12,889"
+   densidade: "12,889"
  },
  {
    bairro: "Gávea",
@@ -277,7 +277,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.95,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "6,204"
+   densidade: "6,204"
  },
  {
    bairro: "Rocha Miranda",
@@ -285,7 +285,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.75,
    ClassificacaoIDH: "Alto",
-   Densidade: "15,307"
+   densidade: "15,307"
  },
  {
    bairro: "Centro",
@@ -293,7 +293,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.86,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "5,448"
+   densidade: "5,448"
  },
  {
    bairro: "Ramos",
@@ -301,7 +301,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.84,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "14,602"
+   densidade: "14,602"
  },
  {
    bairro: "Bento Ribeiro",
@@ -309,7 +309,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Pouco Vulnerável",
    IDH: 0.85,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "14,387"
+   densidade: "14,387"
  },
  {
    bairro: "Encantado",
@@ -317,7 +317,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.84,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "14,169"
+   densidade: "14,169"
  },
  {
    bairro: "Engenho de Dentro",
@@ -325,7 +325,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.88,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "11,616"
+   densidade: "11,616"
  },
  {
    bairro: "Joá",
@@ -333,7 +333,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.92,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "484"
+   densidade: "484"
  },
  {
    bairro: "Vila Kosmos",
@@ -341,7 +341,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.79,
    ClassificacaoIDH: "Alto",
-   Densidade: "12,028"
+   densidade: "12,028"
  },
  {
    bairro: "Pilares",
@@ -349,7 +349,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.64,
    ClassificacaoIDH: "Médio",
-   Densidade: "14,839"
+   densidade: "14,839"
  },
  {
    bairro: "Jardim América",
@@ -357,7 +357,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.65,
    ClassificacaoIDH: "Médio",
-   Densidade: "12,779"
+   densidade: "12,779"
  },
  {
    bairro: "Pechincha",
@@ -365,7 +365,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.89,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "12,261"
+   densidade: "12,261"
  },
  {
    bairro: "Grajaú",
@@ -373,7 +373,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.92,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "6,738"
+   densidade: "6,738"
  },
  {
    bairro: "Vila Valqueire",
@@ -381,7 +381,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.87,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "7,627"
+   densidade: "7,627"
  },
  {
    bairro: "Cidade Nova",
@@ -389,7 +389,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.9,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "5,847"
+   densidade: "5,847"
  },
  {
    bairro: "Ricardo de Albuquerque",
@@ -397,7 +397,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.67,
    ClassificacaoIDH: "Médio",
-   Densidade: "13,846"
+   densidade: "13,846"
  },
  {
    bairro: "Higienópolis",
@@ -405,7 +405,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.85,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "13,593"
+   densidade: "13,593"
  },
  {
    bairro: "Oswaldo Cruz",
@@ -413,7 +413,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.79,
    ClassificacaoIDH: "Alto",
-   Densidade: "16,435"
+   densidade: "16,435"
  },
  {
    bairro: "Padre Miguel",
@@ -421,7 +421,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.79,
    ClassificacaoIDH: "Alto",
-   Densidade: "13,200"
+   densidade: "13,200"
  },
  {
    bairro: "Olaria",
@@ -429,7 +429,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.76,
    ClassificacaoIDH: "Alto",
-   Densidade: "15,587"
+   densidade: "15,587"
  },
  {
    bairro: "Freguesia (Jacarepaguá)",
@@ -437,7 +437,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.91,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "6,827"
+   densidade: "6,827"
  },
  {
    bairro: "Tijuca",
@@ -445,7 +445,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.94,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "16,274"
+   densidade: "16,274"
  },
  {
    bairro: "Jardim Sulacap",
@@ -453,7 +453,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.89,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "1,660"
+   densidade: "1,660"
  },
  {
    bairro: "Piedade",
@@ -461,7 +461,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.76,
    ClassificacaoIDH: "Alto",
-   Densidade: "11,159"
+   densidade: "11,159"
  },
  {
    bairro: "Quintino Bocaiúva",
@@ -469,7 +469,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.77,
    ClassificacaoIDH: "Alto",
-   Densidade: "7,212"
+   densidade: "7,212"
  },
  {
    bairro: "Bonsucesso",
@@ -477,7 +477,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.79,
    ClassificacaoIDH: "Alto",
-   Densidade: "8,506"
+   densidade: "8,506"
  },
  {
    bairro: "Taquara",
@@ -485,7 +485,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.86,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "7,733"
+   densidade: "7,733"
  },
  {
    bairro: "Cordovil",
@@ -493,7 +493,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.65,
    ClassificacaoIDH: "Médio",
-   Densidade: "11,720"
+   densidade: "11,720"
  },
  {
    bairro: "Realengo",
@@ -501,7 +501,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.67,
    ClassificacaoIDH: "Médio",
-   Densidade: "6,913"
+   densidade: "6,913"
  },
  {
    bairro: "Engenho da Rainha",
@@ -509,7 +509,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.65,
    ClassificacaoIDH: "Médio",
-   Densidade: "11,978"
+   densidade: "11,978"
  },
  {
    bairro: "Portuguesa",
@@ -517,7 +517,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.88,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "20,108"
+   densidade: "20,108"
  },
  {
    bairro: "Vila Militar",
@@ -525,7 +525,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.77,
    ClassificacaoIDH: "Alto",
-   Densidade: "1,226"
+   densidade: "1,226"
  },
  {
    bairro: "Guadalupe",
@@ -533,7 +533,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.81,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "12,341"
+   densidade: "12,341"
  },
  {
    bairro: "São Conrado",
@@ -541,7 +541,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.96,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "1,692"
+   densidade: "1,692"
  },
  {
    bairro: "Cacuia",
@@ -549,7 +549,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.88,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "5,324"
+   densidade: "5,324"
  },
  {
    bairro: "Penha Circular",
@@ -557,7 +557,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.73,
    ClassificacaoIDH: "Alto",
-   Densidade: "10,342"
+   densidade: "10,342"
  },
  {
    bairro: "Anil",
@@ -565,7 +565,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.9,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "6,905"
+   densidade: "6,905"
  },
  {
    bairro: "Jardim Carioca",
@@ -573,7 +573,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.76,
    ClassificacaoIDH: "Alto",
-   Densidade: "15,328"
+   densidade: "15,328"
  },
  {
    bairro: "Bangu",
@@ -581,7 +581,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.79,
    ClassificacaoIDH: "Alto",
-   Densidade: "5,977"
+   densidade: "5,977"
  },
  {
    bairro: "Curicica",
@@ -589,7 +589,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.81,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "9,339"
+   densidade: "9,339"
  },
  {
    bairro: "Vila Isabel",
@@ -597,7 +597,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.92,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "26,738"
+   densidade: "26,738"
  },
  {
    bairro: "Urca",
@@ -605,7 +605,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.95,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "3,045"
+   densidade: "3,045"
  },
  {
    bairro: "Campinho",
@@ -613,7 +613,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.86,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "10,316"
+   densidade: "10,316"
  },
  {
    bairro: "Inhaúma",
@@ -621,7 +621,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.79,
    ClassificacaoIDH: "Alto",
-   Densidade: "13,112"
+   densidade: "13,112"
  },
  {
    bairro: "Vaz Lobo",
@@ -629,7 +629,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.8,
    ClassificacaoIDH: "Alto",
-   Densidade: "13,773"
+   densidade: "13,773"
  },
  {
    bairro: "Cavalcanti",
@@ -637,7 +637,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.75,
    ClassificacaoIDH: "Alto",
-   Densidade: "8,389"
+   densidade: "8,389"
  },
  {
    bairro: "Campo Grande",
@@ -645,7 +645,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.81,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "3,144"
+   densidade: "3,144"
  },
  {
    bairro: "Água Santa",
@@ -653,7 +653,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.67,
    ClassificacaoIDH: "Médio",
-   Densidade: "3,609"
+   densidade: "3,609"
  },
  {
    bairro: "Santo Cristo",
@@ -661,7 +661,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.75,
    ClassificacaoIDH: "Alto",
-   Densidade: "7,319"
+   densidade: "7,319"
  },
  {
    bairro: "Tomás Coelho",
@@ -669,7 +669,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.65,
    ClassificacaoIDH: "Médio",
-   Densidade: "12,976"
+   densidade: "12,976"
  },
  {
    bairro: "Engenho Novo",
@@ -677,7 +677,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.86,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "15,945"
+   densidade: "15,945"
  },
  {
    bairro: "Recreio dos Bandeirantes",
@@ -685,7 +685,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.87,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "2,683"
+   densidade: "2,683"
  },
  {
    bairro: "Cosmos",
@@ -693,7 +693,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.74,
    ClassificacaoIDH: "Alto",
-   Densidade: "6,838"
+   densidade: "6,838"
  },
  {
    bairro: "Penha",
@@ -701,7 +701,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.76,
    ClassificacaoIDH: "Alto",
-   Densidade: "13,539"
+   densidade: "13,539"
  },
  {
    bairro: "Saúde",
@@ -709,7 +709,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.68,
    ClassificacaoIDH: "Médio",
-   Densidade: "7,556"
+   densidade: "7,556"
  },
  {
    bairro: "Magalhães Bastos",
@@ -717,7 +717,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.68,
    ClassificacaoIDH: "Médio",
-   Densidade: "12,364"
+   densidade: "12,364"
  },
  {
    bairro: "São Cristóvão",
@@ -725,7 +725,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.71,
    ClassificacaoIDH: "Alto",
-   Densidade: "6,457"
+   densidade: "6,457"
  },
  {
    bairro: "Andaraí",
@@ -733,7 +733,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.86,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "17,408"
+   densidade: "17,408"
  },
  {
    bairro: "Inhoaíba",
@@ -741,7 +741,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.77,
    ClassificacaoIDH: "Alto",
-   Densidade: "7,800"
+   densidade: "7,800"
  },
  {
    bairro: "Lins de Vasconcelos",
@@ -749,7 +749,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.67,
    ClassificacaoIDH: "Médio",
-   Densidade: "14,044"
+   densidade: "14,044"
  },
  {
    bairro: "Santíssimo",
@@ -757,7 +757,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.81,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "4,983"
+   densidade: "4,983"
  },
  {
    bairro: "Coelho Neto",
@@ -765,7 +765,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.78,
    ClassificacaoIDH: "Alto",
-   Densidade: "12,907"
+   densidade: "12,907"
  },
  {
    bairro: "Tanque",
@@ -773,7 +773,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.71,
    ClassificacaoIDH: "Alto",
-   Densidade: "6,799"
+   densidade: "6,799"
  },
  {
    bairro: "Senador Camará",
@@ -781,7 +781,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.69,
    ClassificacaoIDH: "Médio",
-   Densidade: "6,240"
+   densidade: "6,240"
  },
  {
    bairro: "São Francisco Xavier",
@@ -789,7 +789,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.82,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "12,857"
+   densidade: "12,857"
  },
  {
    bairro: "Jacaré",
@@ -797,7 +797,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.67,
    ClassificacaoIDH: "Médio",
-   Densidade: "11,009"
+   densidade: "11,009"
  },
  {
    bairro: "Honório Gurgel",
@@ -805,7 +805,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.79,
    ClassificacaoIDH: "Alto",
-   Densidade: "15,994"
+   densidade: "15,994"
  },
  {
    bairro: "Paquetá",
@@ -813,7 +813,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.79,
    ClassificacaoIDH: "Alto",
-   Densidade: "1,970"
+   densidade: "1,970"
  },
  {
    bairro: "Anchieta",
@@ -821,7 +821,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.76,
    ClassificacaoIDH: "Alto",
-   Densidade: "12,806"
+   densidade: "12,806"
  },
  {
    bairro: "Madureira",
@@ -829,7 +829,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.81,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "13,229"
+   densidade: "13,229"
  },
  {
    bairro: "Del Castilho",
@@ -837,7 +837,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.81,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "10,833"
+   densidade: "10,833"
  },
  {
    bairro: "Sampaio",
@@ -845,7 +845,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.76,
    ClassificacaoIDH: "Alto",
-   Densidade: "12,319"
+   densidade: "12,319"
  },
  {
    bairro: "Senador Vasconcelos",
@@ -853,7 +853,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.77,
    ClassificacaoIDH: "Alto",
-   Densidade: "4,750"
+   densidade: "4,750"
  },
  {
    bairro: "Vigário Geral",
@@ -861,7 +861,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.76,
    ClassificacaoIDH: "Alto",
-   Densidade: "12,353"
+   densidade: "12,353"
  },
  {
    bairro: "Cidade de Deus",
@@ -869,7 +869,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.67,
    ClassificacaoIDH: "Médio",
-   Densidade: "28,684"
+   densidade: "28,684"
  },
  {
    bairro: "Freguesia (Ilha do Governador)",
@@ -877,7 +877,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.88,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "4,792"
+   densidade: "4,792"
  },
  {
    bairro: "Engenheiro Leal",
@@ -885,7 +885,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.75,
    ClassificacaoIDH: "Alto",
-   Densidade: "8,631"
+   densidade: "8,631"
  },
  {
    bairro: "Cascadura",
@@ -893,7 +893,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.75,
    ClassificacaoIDH: "Alto",
-   Densidade: "12,137"
+   densidade: "12,137"
  },
  {
    bairro: "Marechal Hermes",
@@ -901,7 +901,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.8,
    ClassificacaoIDH: "Alto",
-   Densidade: "12,367"
+   densidade: "12,367"
  },
  {
    bairro: "Turiaçu",
@@ -909,7 +909,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.71,
    ClassificacaoIDH: "Alto",
-   Densidade: "13,733"
+   densidade: "13,733"
  },
  {
    bairro: "Pedra de Guaratiba",
@@ -917,7 +917,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.76,
    ClassificacaoIDH: "Alto",
-   Densidade: "2,609"
+   densidade: "2,609"
  },
  {
    bairro: "Gardênia Azul",
@@ -925,7 +925,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.74,
    ClassificacaoIDH: "Alto",
-   Densidade: "14,329"
+   densidade: "14,329"
  },
  {
    bairro: "Paciência",
@@ -933,7 +933,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.76,
    ClassificacaoIDH: "Alto",
-   Densidade: "3,451"
+   densidade: "3,451"
  },
  {
    bairro: "Praça Seca",
@@ -941,7 +941,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.88,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "9,869"
+   densidade: "9,869"
  },
  {
    bairro: "Vicente de Carvalho",
@@ -949,7 +949,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.65,
    ClassificacaoIDH: "Médio",
-   Densidade: "13,599"
+   densidade: "13,599"
  },
  {
    bairro: "Deodoro",
@@ -957,7 +957,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Média",
    IDH: 0.76,
    ClassificacaoIDH: "Alto",
-   Densidade: "2,336"
+   densidade: "2,336"
  },
  {
    bairro: "Gericinó",
@@ -965,7 +965,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.69,
    ClassificacaoIDH: "Médio",
-   Densidade: "5,985"
+   densidade: "5,985"
  },
  {
    bairro: "Santa Teresa",
@@ -973,7 +973,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.9,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "7,936"
+   densidade: "7,936"
  },
  {
    bairro: "Pavuna",
@@ -981,7 +981,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.65,
    ClassificacaoIDH: "Médio",
-   Densidade: "11,713"
+   densidade: "11,713"
  },
  {
    bairro: "Bancários",
@@ -989,7 +989,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.84,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "12,793"
+   densidade: "12,793"
  },
  {
    bairro: "Cidade Universitária",
@@ -997,7 +997,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.76,
    ClassificacaoIDH: "Alto",
-   Densidade: "332"
+   densidade: "332"
  },
  {
    bairro: "Santa Cruz",
@@ -1005,7 +1005,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.86,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "1,738"
+   densidade: "1,738"
  },
  {
    bairro: "Rio Comprido",
@@ -1013,7 +1013,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.8,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "13,093"
+   densidade: "13,093"
  },
  {
    bairro: "Tauá",
@@ -1021,7 +1021,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.84,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "17,678"
+   densidade: "17,678"
  },
  {
    bairro: "Vasco da Gama",
@@ -1029,7 +1029,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.78,
    ClassificacaoIDH: "Alto",
-   Densidade: "10,662"
+   densidade: "10,662"
  },
  {
    bairro: "Gamboa",
@@ -1037,7 +1037,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.68,
    ClassificacaoIDH: "Médio",
-   Densidade: "11,778"
+   densidade: "11,778"
  },
  {
    bairro: "Cosme Velho",
@@ -1045,7 +1045,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.95,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "8,042"
+   densidade: "8,042"
  },
  {
    bairro: "Parque Columbia",
@@ -1053,7 +1053,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.77,
    ClassificacaoIDH: "Alto",
-   Densidade: "10,205"
+   densidade: "10,205"
  },
  {
    bairro: "Sepetiba",
@@ -1061,7 +1061,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.76,
    ClassificacaoIDH: "Alto",
-   Densidade: "4,868"
+   densidade: "4,868"
  },
  {
    bairro: "Colégio",
@@ -1069,7 +1069,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.78,
    ClassificacaoIDH: "Alto",
-   Densidade: "12,934"
+   densidade: "12,934"
  },
  {
    bairro: "Pitangueiras",
@@ -1077,7 +1077,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.83,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "19,459"
+   densidade: "19,459"
  },
  {
    bairro: "Estácio",
@@ -1085,7 +1085,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.8,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "17,533"
+   densidade: "17,533"
  },
  {
    bairro: "Parada de Lucas",
@@ -1093,7 +1093,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.65,
    ClassificacaoIDH: "Médio",
-   Densidade: "10,884"
+   densidade: "10,884"
  },
  {
    bairro: "Benfica",
@@ -1101,7 +1101,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.8,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "14,444"
+   densidade: "14,444"
  },
  {
    bairro: "Jacarepaguá",
@@ -1109,7 +1109,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.64,
    ClassificacaoIDH: "Médio",
-   Densidade: "2,076"
+   densidade: "2,076"
  },
  {
    bairro: "VargemPequena",
@@ -1117,7 +1117,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.86,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "1,887"
+   densidade: "1,887"
  },
  {
    bairro: "Camorim",
@@ -1125,7 +1125,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.78,
    ClassificacaoIDH: "Alto",
-   Densidade: "222"
+   densidade: "222"
  },
  {
    bairro: "Maré",
@@ -1133,7 +1133,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.69,
    ClassificacaoIDH: "Médio",
-   Densidade: "30,400"
+   densidade: "30,400"
  },
  {
    bairro: "Costa Barros",
@@ -1141,7 +1141,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.77,
    ClassificacaoIDH: "Alto",
-   Densidade: "15,672"
+   densidade: "15,672"
  },
  {
    bairro: "Barra de Guaratiba",
@@ -1149,7 +1149,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.8,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "379"
+   densidade: "379"
  },
  {
    bairro: "Galeão",
@@ -1157,7 +1157,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Vulnerável",
    IDH: 0.88,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "1,212"
+   densidade: "1,212"
  },
  {
    bairro: "Catumbi",
@@ -1165,7 +1165,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.67,
    ClassificacaoIDH: "Médio",
-   Densidade: "23,275"
+   densidade: "23,275"
  },
  {
    bairro: "Guaratiba",
@@ -1173,7 +1173,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.72,
    ClassificacaoIDH: "Alto",
-   Densidade: "789"
+   densidade: "789"
  },
  {
    bairro: "Alto da Boa Vista",
@@ -1181,7 +1181,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.95,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "297"
+   densidade: "297"
  },
  {
    bairro: "Vargem Grande",
@@ -1189,7 +1189,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.81,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "356"
+   densidade: "356"
  },
  {
    bairro: "Caju",
@@ -1197,7 +1197,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.78,
    ClassificacaoIDH: "Alto",
-   Densidade: "3,829"
+   densidade: "3,829"
  },
  {
    bairro: "Vidigal",
@@ -1205,7 +1205,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.68,
    ClassificacaoIDH: "Médio",
-   Densidade: "7,893"
+   densidade: "7,893"
  },
  {
    bairro: "Itanhangá",
@@ -1213,7 +1213,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.95,
    ClassificacaoIDH: "Muito Alto",
-   Densidade: "2,911"
+   densidade: "2,911"
  },
  {
    bairro: "Barros Filho",
@@ -1221,7 +1221,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.7,
    ClassificacaoIDH: "Médio",
-   Densidade: "8,150"
+   densidade: "8,150"
  },
  {
    bairro: "Manguinhos",
@@ -1229,7 +1229,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.79,
    ClassificacaoIDH: "Alto",
-   Densidade: "13,810"
+   densidade: "13,810"
  },
  {
    bairro: "Complexo do Alemão",
@@ -1237,7 +1237,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.66,
    ClassificacaoIDH: "Médio",
-   Densidade: "23,352"
+   densidade: "23,352"
  },
  {
    bairro: "Acari",
@@ -1245,7 +1245,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.66,
    ClassificacaoIDH: "Médio",
-   Densidade: "17,033"
+   densidade: "17,033"
  },
  {
    bairro: "Jacarezinho",
@@ -1253,7 +1253,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.67,
    ClassificacaoIDH: "Médio",
-   Densidade: "40,089"
+   densidade: "40,089"
  },
  {
    bairro: "Rocinha",
@@ -1261,7 +1261,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.66,
    ClassificacaoIDH: "Médio",
-   Densidade: "48,258"
+   densidade: "48,258"
  },
  {
    bairro: "Mangueira",
@@ -1269,7 +1269,7 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.68,
    ClassificacaoIDH: "Médio",
-   Densidade: "22,346"
+   densidade: "22,346"
  },
  {
    bairro: "Grumari",
@@ -1277,6 +1277,6 @@ export const ivcovidRio = [
    ClassificacaoIVCovid: "Muito Vulnerável",
    IDH: 0.69,
    ClassificacaoIDH: "Médio",
-   Densidade: "17"
+   densidade: "17"
  }
 ]
