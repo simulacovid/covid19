@@ -174,13 +174,16 @@ textarea{
     .simulador{
         height: 95vh;
     }
-    .table-ivcovid{
-        height: 95vh;
+    .card{
         overflow-y: scroll;
         overflow-x: hidden;
         table{
-            font-size: 0.9em;
+            font-size: 12px;
         }
+    }
+    .table-ivcovid-rj{
+        // height: 95vh;
+        // ola
     }
 }
 .aboutus{
