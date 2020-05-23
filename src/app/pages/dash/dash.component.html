@@ -25,7 +25,7 @@
                                 <thead>
                                     <tr>
                                         <th>Bairro</th>
-                                        <th>Densidade</th>
+                                        <th>Densidade (hab/km<sup>2</sup>)</th>
                                         <th>IVC</th>
                                         <th>Classificação IVC</th>
                                         <th>IDH</th>
@@ -36,9 +36,9 @@
                                     <tr *ngFor="let dados of ivc_rj; let i = index">
                                         <td>{{dados.bairro}}</td>
                                         <td>{{dados.densidade}}</td>
-                                        <td>{{dados.IVC}}</td>
+                                        <td>{{dados.ivc}}</td>
                                         <td>{{dados.ClassificacaoIVCovid}}</td>
-                                        <td>{{dados.IDH}}</td>
+                                        <td>{{dados.idh}}</td>
                                         <td>{{dados.ClassificacaoIDH}}</td>
                                     </tr>
                                 </tbody>

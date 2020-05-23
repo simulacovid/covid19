@@ -16,7 +16,7 @@ export class DashComponent implements OnInit {
   dtOptions: DataTables.Settings = {};
   ngOnInit() {
     this.dtOptions = {
-      pagingType: 'full_numbers',
+      pagingType: 'numbers',
       pageLength: 5,
       processing: true,
       responsive: true,
