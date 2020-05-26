@@ -44,9 +44,9 @@
                             </p>
                             <figure>
                                 <br>
-                                <img src="./assets/img/methodology/methodology_001.png" class="figure-img mx-auto img-fluid">
+                                <img src="./assets/img/methodology/methodology_001.png" class="mx-auto d-block methodology-vertical">
                                 <br>
-                                <figcaption class="figure-caption">
+                                <figcaption class="figure-caption text-center">
                                     Figura 1: Infográfico retirado de estudo sobre a janela de transmissão ao vírus como função dos sintomas a Covid-19. (Lu et al., 2020)
                                 </figcaption>
                             </figure>
@@ -75,9 +75,9 @@
                             
                             <figure>
                                 <br>
-                                <img src="./assets/img/methodology/methodology_002.png" class="figure-img mx-auto img-fluid">
+                                <img src="./assets/img/methodology/methodology_002.png" class="mx-auto d-block methodology-img">
                                 <br>
-                                <figcaption class="figure-caption">
+                                <figcaption class="figure-caption text-center">
                                     Figura 2. Simulador do MD Corona V 2.2.
                                 </figcaption>
                             </figure>
@@ -89,9 +89,9 @@
                             
                             <figure>
                                 <br>
-                                <img src="./assets/img/methodology/methodology_003.jpg" class="figure-img mx-auto img-fluid">
+                                <img src="./assets/img/methodology/methodology_003.jpg" class="mx-auto d-block methodology-img">
                                 <br>
-                                <figcaption class="figure-caption">
+                                <figcaption class="figure-caption text-center">
                                     Figura 3. Faixas do IDH
                                 </figcaption>
                             </figure> 
@@ -176,16 +176,16 @@
                             <p>
                                 Para além dos parâmetros fixos inerentes ao modelo, discutidos acima, os parâmetros que influenciam diretamente a curva de transmissão do vírus são o número de pessoas na grade e a probabilidade de contaminação a cada encontro. Considerando que NY tem uma densidade populacional média e queremos poder simular localidades com densidades ao menos 3 vezes maior, é interessante focalizar o número de pessoas em torno de 400, para um universo total de 1200 pessoas. Desta forma, com o roteiro estabelecido na Tabela(Box1), variamos a combinação número de pessoas e a probabilidade de transmissão até conseguir reproduzir a história de NY consistente com 24,7% de infectados após 54 dias. É intrínseco aos modelos complexos de multiagentes uma sensibilidade as condições iniciais. Isso foi minimizado com uma repetição sistemática com mil (10 vezes  de 100) simulações. 
                             </p>
-
+                            
                             <figure>
                                 <br>
-                                <img src="./assets/img/methodology/methodology_004.png" class="figure-img mx-auto img-fluid">
+                                <img src="./assets/img/methodology/methodology_004.png" class="mx-auto d-block methodology-img">
                                 <br>
-                                <figcaption class="figure-caption">
+                                <figcaption class="figure-caption text-center">
                                     Figura 4:  Resultado para 100 simulações com os parâmetros da tabela 3, gerando 25,24% de infectados pelo Vírus. A curva azul é a curva média de todas as simulações. A laranja é a média da imunidade. 
                                 </figcaption>
                             </figure> 
-
+                            
                             <p>
                                 A Figura 4 confirma a variância dos resultados do simulador para um conjunto de 100 simulações com os mesmos parâmetros iniciais. No entanto a curva média satisfaz a calibração de NYC. 
                                 Para confirmar que o resultado é de fato consistente com 24,7% obtido pelo estudo de NY, repetimos 10 vezes o conjunto de 100 simulações e obtivemos o valor de 25,21% com um desvio padrão de 0,87%.  O valores estão na Tabela 2.
@@ -193,7 +193,7 @@
                             <p>
                                 Na tabela 2 mostramos os valores dos parâmetros definidos pela calibragem na qual obtivemos 384 pessoas na grade com uma probabilidade de transmissão de 58%. 
                             </p>
-
+                            
                             <div class="table-responsive">
                                 <table class="table table-bordered table-striped text-center">
                                     <caption>Tabela 2: Resultado da calibração do modelo com a cidade de Nova York.</caption>
@@ -222,27 +222,88 @@
                             <p>
                                 A calibração define a densidade do modelo em relação a densidade populacional de NY. Com 384 pessoas em uma grade de 1681 pontos, podemos estabelecer que a densidade de NY 10947 hab./Km <sup>2</sup> corresponde a um fator de densidade do modelo de  0.23 pessoas/pontos <sup>2</sup>. Isso estabelece a régua para conversão de densidades demográficas de localidades para pessoas no simulador:
                             </p>
-
-
+                            <p class="text-center equation">
+                                N&ordm; de pessoas da grade = densidade demográfica x 0,035.  
+                            </p>
+                            <p>
+                                A régua também define limites máximos (34000 hab/km²) e mínimos (3400 hab/km²) para a simulação, dado o número de pessoas na grade. Para densidades maiores que o máximo recomendamos que o usuário coloque o slider da densidade no máximo, pois a dinâmica de transmissão será próxima. Para localidades com densidades menores que o mínimo o modelo não é preciso. 
+                            </p>
+                            
+                            <figure>
+                                <br>
+                                <img src="./assets/img/methodology/methodology_005.png" class="mx-auto d-block methodology-img">
+                                <br>
+                                <figcaption class="figure-caption text-center">
+                                    Figura 5. Tipos de vizinhanças bidimensionais
+                                </figcaption>
+                            </figure> 
+                            
                             <hr>
-                            <sub>
-                                <sub>1</sub>
-                                Os tipos de vizinhanças bidimensionais mais estudadas são a vizinhança de von Neumann, que considera as células imediatamente associadas à célula central, e vizinhança de Moore que considera todas as células 
-                                <br>
-                                vizinhas da célula central (exemplificadas na figura 1 ao final). Como na evolução dos agentes bidimensionais a vizinhança é formada por um plano, as regras de transição também deverão considerar esse espaço bidimensional.
-                            </sub>
-                            <br>
-                            <sub>
-                                <sub>2</sub>
-                                Diferente da transmissão local –casos de pessoas que tiveram contato com outro paciente infectado que trouxe o vírus de fora do país – a transmissão comunitária são casos de transmissão do vírus entre a população 
-                                <br>
-                                local, sem que nenhuma das pessoas tenha viajado.
-                            </sub>
-                            <br>
-                            <sub>
-                                <sub>3</sub>
-                                Os valores de IPC e IDH podem ser consultados na tabela ao lado do Simulador.
-                            </sub>
+                            <div class="footer-notes">
+                                
+                                <p>
+                                    <sup>1</sup> 
+                                    <small>
+                                        Os tipos de vizinhanças bidimensionais mais estudadas são a vizinhança de von Neumann, que considera as células imediatamente associadas à célula central, e vizinhança de Moore que considera todas as células vizinhas da célula central (exemplificadas na figura 1 ao final). Como na evolução dos agentes bidimensionais a vizinhança é formada por um plano, as regras de transição também deverão considerar esse espaço bidimensional.
+                                    </small>
+                                </p>
+                                <p>
+                                    <sup>2</sup>
+                                    <small> 
+                                        Diferente da transmissão local – casos de pessoas que tiveram contato com outro paciente infectado que trouxe o vírus de fora do país – a transmissão comunitária são casos de transmissão do vírus entre a população local, sem que nenhuma das pessoas tenha viajado.
+                                    </small>
+                                </p>
+                                <p>
+                                    <sup>3</sup>
+                                    <small>
+                                        Os valores de IPC e IDH podem ser consultados na tabela ao lado do Simulador.
+                                    </small>
+                                </p>
+                                <p>
+                                    <sup>4</sup>
+                                    <small>
+                                        Estamos buscando desenvolver uma nova calibragem ao modelo para densidades mais baixas.
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5>Referências</h5>
+                            
+                            <p>IBGE. Instituto Brasileiro de Geografia e Estatística. Censo 2010. Disponível em <http://www.censo2010.ibge.gov.br/>. Acesso em 10 de maio de 2020.</p>
+                            <p>
+                                Li, R., Pei, S., Chen B., Song, Y., Zhang, T., Yang, W. & Shaman, J. (2020, 16 de março). Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV2). Science. DOI: 10.1126/science.abb3221
+                            </p>
+                            <p>
+                                Sales J. (2020, 10 de março). What happens after you recover from coronavirus? 5 questions answered. World Economic Forum. DOI: https://www.weforum.org/agenda/2020/03/coronavirus-recovery-what-happens-after-covid19
+                            </p>
+                            <p>
+                                Serrano, C. (2020, 24 de março) O que mutações podem representar no combate ao novo coronavírus. BBC Brasil. DOI: https://www.bbc.com/portuguese/brasil-52069729
+                            </p>
+                            <p>Zhou, F. et al. (2020, 11 de março). Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. The Lance. DOI: https://doi.org/10.1016/S0140-6736(20)30566-3</p>
+                            <p>
+                                Wilensky, U. (1998). NetLogo Virus model. http://ccl.northwestern.edu/netlogo/models/Virus. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+                            </p>
+                            <p>
+                                Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+                            </p>
+                            <p>
+                                Guedes Pinto, José Paulo; Magalhães, Patrícia; Santos Carlos Silva. (2020). Modelo de Dispersão Comunitária Coronavírus (MD Corona), Universidade Federal do ABC, São Bernardo do Campo, Brasil.  
+                            </p>
+                            <p>
+                                DORIGATTI, I. et al. Report 4 : Severity of 2019-novel coronavirus ( nCoV ). Imperial College London COVID-19 Response Team, n. February, p. 1–12, 2020.
+                            </p>
+                            <p>
+                                LU, X. et al. Adjuvant corticosteroid therapy for critically ill patients with COVID-19. medRxiv, p. 2020.04.07.20056390, 2020.
+                                
+                            </p>
+                            <p>NY, G. Amid Ongoing COVID-19 Pandemic, Governor Cuomo Announces Phase II Results of Antibody Testing Study Show 14.9% of Population Has COVID-19 Antibodies. 27 de Abril, 2020.</p>
+                            <p>
+                                TIMES, N. Coronavirus early outbreaks. 23 de Abril, 2020a.
+                            </p>
+                            <p>
+                                TIMES, N. New York coronavirus response delays. 08 de Abril, 2020b. 
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-export const ivcovidRio = [
+ [
  {
    "bairro": "Campo dos Afonsos",
    "ivc": 0.91,

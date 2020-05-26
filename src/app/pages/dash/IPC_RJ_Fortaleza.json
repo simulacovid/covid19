@@ -1,0 +1,2513 @@
+[
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Lagoa",
+   "IPC": 0.7,
+   "ClassificacaoIPC": "Muito Alto",
+   "IDH": 0.95,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 4,148 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Leblon",
+   "IPC": 0.69,
+   "ClassificacaoIPC": "Muito Alto",
+   "IDH": 0.94,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 21,385 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Campo dos Afonsos",
+   "IPC": 0.69,
+   "ClassificacaoIPC": "Muito Alto",
+   "IDH": 0.89,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 420 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Flamengo",
+   "IPC": 0.69,
+   "ClassificacaoIPC": "Muito Alto",
+   "IDH": 0.96,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 30,398 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Ipanema",
+   "IPC": 0.69,
+   "ClassificacaoIPC": "Muito Alto",
+   "IDH": 0.94,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 13,856 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Humaitá",
+   "IPC": 0.68,
+   "ClassificacaoIPC": "Muito Alto",
+   "IDH": 0.95,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 12,599 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Glória",
+   "IPC": 0.68,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.91,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 8,474 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Copacabana",
+   "IPC": 0.68,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.94,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 35,698 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Laranjeiras",
+   "IPC": 0.68,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.95,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 18,269 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Maracanã",
+   "IPC": 0.67,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.94,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 15,148 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Barra da Tijuca",
+   "IPC": 0.67,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.94,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 2,823 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Todos os Santos",
+   "IPC": 0.67,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.9,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 24,338 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Moneró",
+   "IPC": 0.67,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.88,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 12,441 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Jardim Botânico",
+   "IPC": 0.67,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.91,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 6,697 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Praça da Bandeira",
+   "IPC": 0.67,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.91,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 12,032 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Zumbi",
+   "IPC": 0.67,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.65,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 12,513 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Jardim Guanabara",
+   "IPC": 0.67,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.93,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 10,048 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Ribeira",
+   "IPC": 0.66,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.88,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 4,093 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Vista Alegre",
+   "IPC": 0.66,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.7,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 16,735 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Méier",
+   "IPC": 0.66,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.89,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 20,166 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Vila da Penha",
+   "IPC": 0.65,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.89,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 17,737 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Abolição",
+   "IPC": 0.65,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.84,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 18,425 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Botafogo",
+   "IPC": 0.65,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.95,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 17,273 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Rocha",
+   "IPC": 0.64,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.86,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 6,683 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Gávea",
+   "IPC": 0.64,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.95,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 6,204 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Leme",
+   "IPC": 0.64,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.95,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 15,144 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Maria da Graça",
+   "IPC": 0.64,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 9,663 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Praia da Bandeira",
+   "IPC": 0.63,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.84,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 15,677 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Riachuelo",
+   "IPC": 0.63,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.95,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 13,633 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Cachambi",
+   "IPC": 0.63,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.84,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 18,850 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Catete",
+   "IPC": 0.63,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.87,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 35,325 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Joá",
+   "IPC": 0.63,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.92,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 484 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Cocotá",
+   "IPC": 0.62,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.84,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 9,951 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Centro",
+   "IPC": 0.61,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.86,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 5,448 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Parque Anchieta",
+   "IPC": 0.61,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.71,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 6,711 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Higienópolis",
+   "IPC": 0.61,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.85,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 13,593 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Brás de Pina",
+   "IPC": 0.6,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.65,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 16,814 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Grajaú",
+   "IPC": 0.6,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.92,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 6,738 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Pechincha",
+   "IPC": 0.6,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.89,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 12,261 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Irajá",
+   "IPC": 0.6,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.81,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 12,889 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Tijuca",
+   "IPC": 0.59,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.94,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 16,274 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Bento Ribeiro",
+   "IPC": 0.59,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.85,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 14,387 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Vila Valqueire",
+   "IPC": 0.59,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.87,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 7,627 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Vila Kosmos",
+   "IPC": 0.59,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.79,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 12,028 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Freguesia (Jacarepaguá)",
+   "IPC": 0.59,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.91,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 6,827 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Ramos",
+   "IPC": 0.59,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.84,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 14,602 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Encantado",
+   "IPC": 0.59,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.84,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 14,169 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Cidade Nova",
+   "IPC": 0.59,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.9,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 5,847 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Rocha Miranda",
+   "IPC": 0.58,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.75,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 15,307 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Engenho de Dentro",
+   "IPC": 0.58,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.88,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 11,616 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Cacuia",
+   "IPC": 0.58,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.88,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 5,324 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Vila Militar",
+   "IPC": 0.58,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.77,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 1,226 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Jardim Sulacap",
+   "IPC": 0.58,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.89,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 1,660 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "São Conrado",
+   "IPC": 0.58,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.96,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 1,692 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Taquara",
+   "IPC": 0.58,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.86,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 7,733 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Urca",
+   "IPC": 0.58,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.95,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 3,045 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Padre Miguel",
+   "IPC": 0.57,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.79,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 13,200 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Pilares",
+   "IPC": 0.57,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.64,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 14,839 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Anil",
+   "IPC": 0.57,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.9,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 6,905 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Oswaldo Cruz",
+   "IPC": 0.57,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.79,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 16,435 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Portuguesa",
+   "IPC": 0.57,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.88,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 20,108 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Jardim América",
+   "IPC": 0.57,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.65,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 12,779 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Quintino Bocaiúva",
+   "IPC": 0.57,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.77,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 7,212 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Olaria",
+   "IPC": 0.56,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 15,587 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Piedade",
+   "IPC": 0.56,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 11,159 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Ricardo de Albuquerque",
+   "IPC": 0.56,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.67,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 13,846 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Realengo",
+   "IPC": 0.56,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.67,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 6,913 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Bonsucesso",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.79,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 8,506 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Cordovil",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.65,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 11,720 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Curicica",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.81,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 9,339 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Recreio dos Bandeirantes",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.87,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 2,683 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Vila Isabel",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.92,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 26,738 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Penha Circular",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.73,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 10,342 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Campinho",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.86,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 10,316 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Bangu",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.79,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 5,977 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Guadalupe",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.81,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 12,341 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Jardim Carioca",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 15,328 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Engenho da Rainha",
+   "IPC": 0.54,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.65,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 11,978 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Santo Cristo",
+   "IPC": 0.54,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.75,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 7,319 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Campo Grande",
+   "IPC": 0.53,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.81,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 3,144 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Cosmos",
+   "IPC": 0.53,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.74,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 6,838 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Inhaúma",
+   "IPC": 0.53,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.79,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 13,112 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Saúde",
+   "IPC": 0.52,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.68,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 7,556 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Tomás Coelho",
+   "IPC": 0.52,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.65,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 12,976 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Água Santa",
+   "IPC": 0.52,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.67,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 3,609 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Cavalcanti",
+   "IPC": 0.52,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.75,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 8,389 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Magalhães Bastos",
+   "IPC": 0.52,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.68,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 12,364 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Pedra de Guaratiba",
+   "IPC": 0.52,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 2,609 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Engenho Novo",
+   "IPC": 0.52,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.86,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 15,945 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Vaz Lobo",
+   "IPC": 0.51,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.8,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 13,773 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Andaraí",
+   "IPC": 0.51,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.86,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 17,408 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "São Cristóvão",
+   "IPC": 0.51,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.71,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 6,457 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Tanque",
+   "IPC": 0.51,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.71,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 6,799 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Santíssimo",
+   "IPC": 0.51,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.81,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 4,983 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "São Francisco Xavier",
+   "IPC": 0.51,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.82,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 12,857 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Lins de Vasconcelos",
+   "IPC": 0.5,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.67,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 14,044 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Senador Camará",
+   "IPC": 0.5,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.69,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 6,240 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Inhoaíba",
+   "IPC": 0.5,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.77,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 7,800 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Senador Vasconcelos",
+   "IPC": 0.5,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.77,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 4,750 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Penha",
+   "IPC": 0.5,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 13,539 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Madureira",
+   "IPC": 0.49,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.81,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 13,229 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Paquetá",
+   "IPC": 0.49,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.79,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 1,970 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Cascadura",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.75,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 12,137 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Del Castilho",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.81,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 10,833 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Santa Teresa",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.9,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 7,936 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Coelho Neto",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.78,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 12,907 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Cidade de Deus",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.67,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 28,684 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Marechal Hermes",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.8,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 12,367 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Anchieta",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 12,806 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Freguesia (Ilha do Governador)",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.88,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 4,792 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Turiaçu",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.71,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 13,733 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Cidade Universitária",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 332 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Paciência",
+   "IPC": 0.47,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 3,451 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Sampaio",
+   "IPC": 0.47,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 12,319 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Honório Gurgel",
+   "IPC": 0.47,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.79,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 15,994 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Sepetiba",
+   "IPC": 0.47,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 4,868 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Cosme Velho",
+   "IPC": 0.47,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.95,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 8,042 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Engenheiro Leal",
+   "IPC": 0.47,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.75,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 8,631 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Vigário Geral",
+   "IPC": 0.47,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 12,353 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Jacaré",
+   "IPC": 0.47,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.67,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 11,009 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Santa Cruz",
+   "IPC": 0.46,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.86,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 1,738 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Gardênia Azul",
+   "IPC": 0.46,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.74,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 14,329 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Deodoro",
+   "IPC": 0.46,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 2,336 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Praça Seca",
+   "IPC": 0.45,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.88,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 9,869 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Pavuna",
+   "IPC": 0.45,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.65,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 11,713 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Bancários",
+   "IPC": 0.45,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.84,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 12,793 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Vicente de Carvalho",
+   "IPC": 0.45,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.65,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 13,599 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Gericinó",
+   "IPC": 0.44,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.69,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 5,985 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Gamboa",
+   "IPC": 0.44,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.68,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 11,778 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Vasco da Gama",
+   "IPC": 0.44,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.78,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 10,662 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Rio Comprido",
+   "IPC": 0.44,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.8,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 13,093 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Tauá",
+   "IPC": 0.43,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.84,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 17,678 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Parque Columbia",
+   "IPC": 0.42,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.77,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 10,205 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Barra de Guaratiba",
+   "IPC": 0.42,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.8,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 379 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Camorim",
+   "IPC": 0.42,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.78,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 222 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Pitangueiras",
+   "IPC": 0.41,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.83,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 19,459 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Estácio",
+   "IPC": 0.4,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.8,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 17,533 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Colégio",
+   "IPC": 0.4,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.78,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 12,934 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Vargem Pequena",
+   "IPC": 0.39,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.86,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 1,887 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Jacarepaguá",
+   "IPC": 0.38,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.64,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 2,076 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Parada de Lucas",
+   "IPC": 0.37,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.65,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 10,884 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Benfica",
+   "IPC": 0.37,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.8,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 14,444 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Maré",
+   "IPC": 0.35,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.69,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 30,400 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Guaratiba",
+   "IPC": 0.35,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.72,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 789 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Alto da Boa Vista",
+   "IPC": 0.35,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.95,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 297 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Costa Barros",
+   "IPC": 0.34,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.77,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 15,672 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Galeão",
+   "IPC": 0.34,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.88,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 1,212 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Catumbi",
+   "IPC": 0.31,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.67,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 23,275 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Vargem Grande",
+   "IPC": 0.3,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.81,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 356 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Itanhangá",
+   "IPC": 0.3,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.95,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 2,911 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Vidigal",
+   "IPC": 0.26,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.68,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 7,893 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Caju",
+   "IPC": 0.26,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.78,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 3,829 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Barros Filho",
+   "IPC": 0.24,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.7,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 8,150 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Manguinhos",
+   "IPC": 0.22,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.79,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 13,810 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Complexo do Alemão",
+   "IPC": 0.22,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.66,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 23,352 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Acari",
+   "IPC": 0.21,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.66,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 17,033 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Rocinha",
+   "IPC": 0.17,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.66,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 48,258 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Jacarezinho",
+   "IPC": 0.16,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.67,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 40,089 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Grumari",
+   "IPC": 0.13,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.69,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 17 "
+ },
+ {
+   "Cidade": "Rio de Janeiro (RJ)",
+   "Bairro": "Mangueira",
+   "IPC": 0.13,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.68,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 22,346 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Alagadiço",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.59,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " SR "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Aldeota",
+   "IPC": 0.6,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.87,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 10,918 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Álvaro Weyne",
+   "IPC": 0.54,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.36,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 15,413 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Amadeu Furtado",
+   "IPC": 0.51,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.59,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " SR "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Arraial Moura Brasil",
+   "IPC": 0.32,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.28,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 8,132 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Barra do Ceará",
+   "IPC": 0.47,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.22,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 17,041 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Benfica",
+   "IPC": 0.58,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.57,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " 6,268 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Bom Futuro",
+   "IPC": 0.54,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.51,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " 19,708 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Carlito Pamplona",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.3,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 22,931 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Centro",
+   "IPC": 0.57,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.56,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " 5,236 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Cocó",
+   "IPC": 0.61,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.76,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 6,267 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Cristo Redentor",
+   "IPC": 0.44,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.25,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 20,364 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Damas",
+   "IPC": 0.54,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.51,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " 11,096 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Estância (Dionísio Torres)",
+   "IPC": 0.59,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.86,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 9,090 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Farias Brito",
+   "IPC": 0.53,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.5,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 14,412 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Fátima",
+   "IPC": 0.59,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.69,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 7,228 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Floresta",
+   "IPC": 0.45,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.22,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 93,666 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Jacarecanga",
+   "IPC": 0.5,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.45,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 11,088 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Jardim América",
+   "IPC": 0.54,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.44,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 17,201 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Jardim Guanabara",
+   "IPC": 0.49,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.33,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 2,024 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Jardim Iracema",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.29,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 17,752 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Joaquim Távora",
+   "IPC": 0.59,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.66,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 11,964 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "José Bonifácio",
+   "IPC": 0.58,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.64,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 9,964 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Meireles",
+   "IPC": 0.61,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.95,
+   "ClassificacaoIDH": "Muito Alto",
+   "Densidade": " 14,334 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Monte Castelo",
+   "IPC": 0.53,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.43,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 15,225 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Mucuripe",
+   "IPC": 0.57,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.79,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 15,801 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Papicu",
+   "IPC": 0.47,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.53,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " 8,789 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Parque Araxá",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.59,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " 13,430 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Parquelândia",
+   "IPC": 0.56,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.63,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 10,612 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Parreão",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.57,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " 5,091 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Pirambu",
+   "IPC": 0.39,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.23,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 25,649 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Praia de Iracema",
+   "IPC": 0.58,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.72,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 6,137 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Presidente Kennedy",
+   "IPC": 0.51,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.43,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 13,070 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Rodolfo Teófilo",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.48,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 10,678 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "São João do Tauape",
+   "IPC": 0.53,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.49,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 11,084 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Varjota",
+   "IPC": 0.61,
+   "ClassificacaoIPC": "Alto",
+   "IDH": 0.72,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 15,889 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Vicente Pinzon",
+   "IPC": 0.39,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.33,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 14,827 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Vila Ellery",
+   "IPC": 0.52,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.42,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 15,323 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Vila Velha",
+   "IPC": 0.47,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.27,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 7,900 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Antônio Bezerra",
+   "IPC": 0.49,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.35,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 11,055 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Autran Nunes",
+   "IPC": 0.38,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.18,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 18,936 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Conjunto Ceará I",
+   "IPC": 0.5,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.36,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 12,243 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Dom Lustosa",
+   "IPC": 0.5,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.32,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 9,739 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Genibaú",
+   "IPC": 0.41,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.14,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 21,922 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Henrique Jorge",
+   "IPC": 0.49,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.34,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 14,914 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "João XXIII",
+   "IPC": 0.49,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.28,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 13,048 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Pe. Andrade (Cachoeirinha)",
+   "IPC": 0.5,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.36,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 9,951 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Quintino Cunha",
+   "IPC": 0.44,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.22,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 16,081 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "José de Alencar",
+   "IPC": 0.44,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.38,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 5,092 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Ancuri",
+   "IPC": 0.38,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.2,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 3,502 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Barroso",
+   "IPC": 0.44,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.19,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 8,111 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Cajazeiras",
+   "IPC": 0.49,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.3,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 4,371 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Cambeba",
+   "IPC": 0.49,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.52,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " 3,031 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Cidade dos Funcionários",
+   "IPC": 0.52,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.57,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " 5,519 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Coaçu",
+   "IPC": 0.42,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.26,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 4,291 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Curió",
+   "IPC": 0.31,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.19,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 8,255 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Edson Queiroz",
+   "IPC": 0.4,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.35,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 13,881 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Eng. Luciano Cavalcante",
+   "IPC": 0.54,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.52,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " 4,048 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Guajeru",
+   "IPC": 0.42,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.29,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 6,839 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Guararapes",
+   "IPC": 0.59,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.77,
+   "ClassificacaoIDH": "Alto",
+   "Densidade": " 3,901 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Jangurussu",
+   "IPC": 0.43,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.17,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 32,400 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Jardim das Oliveiras",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.27,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 11,034 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Lagoa Redonda",
+   "IPC": 0.44,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.25,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 15,340 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Lagoa da Sapiranga (Coité)",
+   "IPC": 0.4,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.34,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 8,141 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Messejana (sede)",
+   "IPC": 0.51,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.38,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 6,222 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Parque Iracema",
+   "IPC": 0.5,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.5,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " 3,110 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Parque Manibura",
+   "IPC": 0.55,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.58,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " 4,141 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Paupina",
+   "IPC": 0.33,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.25,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 1,752 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Pedras",
+   "IPC": 0.33,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.26,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 432 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Sabiaguaba",
+   "IPC": 0.34,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.27,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 2 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Salinas",
+   "IPC": 0.57,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.49,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 1,679 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Bom Jardim",
+   "IPC": 0.44,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.19,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " SR "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Bonsucesso",
+   "IPC": 0.45,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.26,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 15,488 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Canindezinho",
+   "IPC": 0.38,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.14,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 12,190 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Conjunto Ceará II",
+   "IPC": 0.52,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.36,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 12,936 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Conjunto Esperança",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.29,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 14,914 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Dendê",
+   "IPC": 0.54,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.18,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 2,444 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Granja Lisboa",
+   "IPC": 0.41,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.17,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 8,407 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Granja Portugal",
+   "IPC": 0.45,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.19,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 10,953 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Jardim Cearense",
+   "IPC": 0.46,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.32,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 9,102 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Manoel Sátiro",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.29,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 12,362 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Maraponga",
+   "IPC": 0.45,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.39,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 6,045 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Mondubim (Sede)",
+   "IPC": 0.43,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.23,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 5,955 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Parque Dois Irmãos",
+   "IPC": 0.39,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.25,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 6,052 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Parque Presidente Vargas",
+   "IPC": 0.38,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.14,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 5,101 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Parque São José",
+   "IPC": 0.49,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.28,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 19,785 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "P. Santa Rosa (Apolo XI)",
+   "IPC": 0.45,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.24,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 13,463 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Passaré",
+   "IPC": 0.43,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.22,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 6,821 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Prefeito José Walter",
+   "IPC": 0.5,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.4,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 2,558 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Siqueira",
+   "IPC": 0.39,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.15,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 11,285 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Aerolândia",
+   "IPC": 0.53,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.31,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 16,681 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Aeroporto (Base Aérea)",
+   "IPC": 0.38,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.18,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 1,185 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Alto da Balança",
+   "IPC": 0.45,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.35,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 15,075 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Bela Vista",
+   "IPC": 0.53,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.38,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 17,636 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Castelão",
+   "IPC": 0.43,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.26,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " SR "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Couto Fernandes",
+   "IPC": 0.29,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.36,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 14,775 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Demócrito Rocha",
+   "IPC": 0.45,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.37,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 12,843 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Dias Macedo",
+   "IPC": 0.45,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.27,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 4,749 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Itaóca",
+   "IPC": 0.5,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.37,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 15,596 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Itaperi",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.37,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 9,209 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Jóquei Club (São Cristóvão)",
+   "IPC": 0.53,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.41,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 11,371 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Mata Galinha",
+   "IPC": 0.48,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.31,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " SR "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Montese",
+   "IPC": 0.57,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.47,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 13,625 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Pan-Americano",
+   "IPC": 0.52,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.37,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 15,657 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Parangaba",
+   "IPC": 0.49,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.42,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 7,949 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Pici (Parque Universitário)",
+   "IPC": 0.44,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.22,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 10,840 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Serrinha",
+   "IPC": 0.46,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.28,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 16,795 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Vila Pery",
+   "IPC": 0.49,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.34,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 13,708 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Vila União",
+   "IPC": 0.52,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.47,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 7,070 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Cais do Porto",
+   "IPC": 0.33,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.22,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 8,743 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Cidade 2000",
+   "IPC": 0.51,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.56,
+   "ClassificacaoIDH": "Baixo",
+   "Densidade": " 16,882 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Manuel Dias Branco",
+   "IPC": 0.44,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.34,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 325 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Praia do Futuro I",
+   "IPC": 0.37,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.29,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 4,093 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Praia do Futuro II",
+   "IPC": 0.41,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.17,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 3,702 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "De Lourdes",
+   "IPC": 0.57,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.64,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " 2,496 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Planalto Ayrton Senna",
+   "IPC": 0.42,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.17,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 12,026 "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Gentilândia",
+   "IPC": 0.6,
+   "ClassificacaoIPC": "Médio",
+   "IDH": 0.66,
+   "ClassificacaoIDH": "Medio",
+   "Densidade": " SR "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "Conjunto Palmeiras",
+   "IPC": 0.42,
+   "ClassificacaoIPC": "Baixo",
+   "IDH": 0.12,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " SR "
+ },
+ {
+   "Cidade": "Fortaleza (CE)",
+   "Bairro": "São Bento",
+   "IPC": 0.39,
+   "ClassificacaoIPC": "Muito Baixo",
+   "IDH": 0.2,
+   "ClassificacaoIDH": "Muito Baixo",
+   "Densidade": " 5,389 "
+ }
+]

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ivcovidRio } from './ivcovid_rj'
+import { ipc_rj_ce } from './ipc_rj_ce'
 import * as $ from 'jquery';  
 
 @Component({
@@ -10,7 +10,7 @@ import * as $ from 'jquery';
 
 export class DashComponent implements OnInit {
   
-  ivc_rj = ivcovidRio;
+  ipc_rj_ce = ipc_rj_ce;
   
   constructor() { }
   dtOptions: DataTables.Settings = {};

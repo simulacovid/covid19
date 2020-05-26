@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ivcovidRio } from './ivcovid_rj'
 
 @Component({
   selector: 'app-statistics',
@@ -7,8 +6,6 @@ import { ivcovidRio } from './ivcovid_rj'
   styleUrls: ['./statistics.component.scss']
 })
 export class StatisticsComponent implements OnInit {
-
-  ivc_rj = ivcovidRio;
 
   constructor() { }
 
