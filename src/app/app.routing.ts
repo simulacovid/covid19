@@ -16,6 +16,7 @@ import { CopacabanaComponent } from './pages/case-study/copacabana/copacabana.co
 import { HowToActComponent } from './pages/how-to-act/how-to-act.component';
 import { StatisticsComponent } from './pages/statistics/statistics.component';
 import { PartnersComponent } from './pages/partners/partners.component';
+import { MethodologyComponent } from './pages/methodology/methodology.component';
 
 import { Article1Component } from './publications/article1/article1.component'
 import { Article2Component } from './publications/article2/article2.component'
@@ -34,7 +35,10 @@ const routes: Routes =[
   { path: 'statistics',    component: StatisticsComponent },
   { path: 'partners',    component: PartnersComponent },
   { path: 'components', component: ComponentsComponent },
-  { path: 'nucleoicons',component: NucleoiconsComponent },
+  { path: 'nucleoicons', component: NucleoiconsComponent },
+  { path: 'methodology',  component: MethodologyComponent }, 
+  { path: 'aboutus',    component: AboutusComponent },
+  { path: 'publicity',    component: PublicityComponent },
   { path: 'publications',    component: PublicationsComponent,
   children: [
     {
@@ -58,9 +62,7 @@ const routes: Routes =[
       component: Article2Component
     }
   ]
-},
-{ path: 'aboutus',    component: AboutusComponent },
-{ path: 'publicity',    component: PublicityComponent },
+}
 ];
 
 @NgModule({
