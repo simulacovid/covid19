@@ -28,5 +28,29 @@
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-</body>
-</html>
+  
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="/__/firebase/7.14.5/firebase-app.js"></script>
+    
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="/__/firebase/7.14.5/firebase-analytics.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDi0LuZG826ph4CX8UA13Nfm_t-ksu8hg4",
+        authDomain: "acaocovid19-homolog.firebaseapp.com",
+        databaseURL: "https://acaocovid19-homolog.firebaseio.com",
+        projectId: "acaocovid19-homolog",
+        storageBucket: "acaocovid19-homolog.appspot.com",
+        messagingSenderId: "172280421022",
+        appId: "1:172280421022:web:c6e947296f6298f60ab98f",
+        measurementId: "G-1GXR547G38"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <script src="/__/firebase/init.js"></script>
+  </body>
+  </html>
