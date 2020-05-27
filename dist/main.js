@@ -5033,7 +5033,7 @@ var __importDefault = (undefined && undefined.__importDefault) || function (mod)
 
 var Note3Component = /** @class */ (function () {
     function Note3Component() {
-        this.src = "https://github.com/zecopol/zecopol/raw/master/Artigo_IVC_21052020.pdf";
+        this.src = "./assets/articles/Artigo_IVC_21052020.pdf";
         this.page = 1;
         this.isLoaded = false;
     }

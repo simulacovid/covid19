@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./note3.component.scss']
 })
 export class Note3Component implements OnInit {
-  src = "https://github.com/zecopol/zecopol/raw/master/Artigo_IVC_21052020.pdf";
+  src = "./assets/articles/Artigo_IVC_21052020.pdf";
   page: number = 1;
   totalPages: number;
   isLoaded: boolean = false;
