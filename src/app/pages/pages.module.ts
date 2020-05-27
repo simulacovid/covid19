@@ -16,6 +16,7 @@ import { PublicityComponent } from './publicity/publicity.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { HomeComponent } from './home/home.component';
 import { CopacabanaComponent } from './case-study/copacabana/copacabana.component';
+import { FortalezaComponent } from './case-study/fortaleza/fortaleza.component';
 import { HowToActComponent } from './how-to-act/how-to-act.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { PartnersComponent } from './partners/partners.component';
@@ -42,6 +43,7 @@ import { MethodologyComponent } from './methodology/methodology.component';
         PublicationsComponent,
         HomeComponent,
         CopacabanaComponent,
+        FortalezaComponent,
         HowToActComponent,
         StatisticsComponent,
         PartnersComponent,
