@@ -117,7 +117,10 @@ textarea{
     .logo-apoio{
         height: 10vh;
     }
-    
+    .logo-premios{
+        height: 10vh;
+        width: 120px;
+    }
     .credits, .footer-nav {
         line-height: 120px;
     }
@@ -357,6 +360,15 @@ textarea{
             margin-bottom: 15px;
         }
     }
+    .methodology{
+        .methodology-vertical{
+            height: 100%;
+            width: 95%;
+        }
+        .methodology-img{
+            width: 90%;
+        }
+    }
     .statistics{
         #riodejaneiro{
             width: 75vw;
@@ -366,8 +378,15 @@ textarea{
     .howtoact .pyramid {
         width: 85vw;
     }
-    .footer .logo-apoio {
-        height: 7vh;
+    .footer{
+        .logo-apoio {
+            height: 7vh;
+        }
+        .logo-premios{
+            height: 7vhvh;
+            width: 90px;
+        }
     }
+
 }
 
