@@ -120,6 +120,7 @@ textarea{
     .logo-premios{
         height: 10vh;
         width: 120px;
+        object-fit: cover;
     }
     .credits, .footer-nav {
         line-height: 120px;
@@ -241,7 +242,7 @@ textarea{
             }
         }
     }
-    #riodejaneiro{
+    #riodejaneiro, #fortaleza{
         width: 70vw;
         height: 1000px;
     }
@@ -370,7 +371,7 @@ textarea{
         }
     }
     .statistics{
-        #riodejaneiro{
+        #riodejaneiro, #fortaleza{
             width: 75vw;
             height: 280px;
         }
